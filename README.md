@@ -134,7 +134,7 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history, including the
 
 Suyash designed the evidence-tier governance system, defined the 10-category skill architecture, and directed the full rebuild of this plugin across four iterations — from the original SuperSEO plugin through the removal of unsupported numeric SEO rules, the addition of the governance and experimentation layers, and the final de-duplication and depth pass.
 
-<!-- add contact / GitHub / portfolio link here -->
+<https://github.com/suyashjavale2186/SEO-Command>
 [Suyash](#)
 
 ## License
