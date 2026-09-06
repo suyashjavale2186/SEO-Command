@@ -1,42 +1,27 @@
 # Snippet Format Analysis
 
+**Scope.** This `serp-analysis` reference is an observation tool: determine **what answer shape the current search result is using**, how stable that shape appears, and what the observation implies for the research brief. It is deliberately upstream of `serp-feature-optimization`, which handles how a target page can implement a suitable answer structure. [Evidence Tier: Tier 3 — Industry observation]
 
-**Source basis:** Ported and filtered from: skills/featured-snippet-optimizer/references/snippet-format-templates.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
+## Observation protocol
 
+Start with the exact query and record the market, language, device, search date, and visible result types. Capture the featured answer or other prominent extraction exactly enough to identify its format: prose definition, unordered list, ordered process, table, calculator, video, or another surface. Then inspect several comparable organic results to see whether the same information shape recurs. A format observed once is evidence of the current SERP, not proof of a permanent rule. [Evidence Tier: Tier 3 — Industry observation]
 
-- # Snippet Format Templates — Worked Examples [Evidence Tier: Tier 3 — Industry observation]
+Separate **format** from **content**. A list may appear because the query asks for alternatives; a table may appear because the user needs side-by-side comparison; a paragraph may be sufficient for a definition. Ask what user task the format is serving. This prevents the analyst from copying presentation without understanding why it is useful. [Evidence Tier: Tier 3 — Industry observation]
 
+## Interpretation record
 
-- Each format below has three failing versions paired with the rewrite that would win the snippet. Copy the structure, not the content. [Evidence Tier: Tier 3 — Industry observation]
+For each query, record: **observed format**, **query task**, **representative source**, **stability/variation**, **content requirement**, and **uncertainty**. If the SERP alternates between formats, report the variation. If an answer changes by location or language, preserve that distinction. Do not convert a vendor study or an SEO anecdote into a universal Google requirement. [Evidence Tier: Tier 3 — Industry observation]
 
+## Concrete case
 
-- ## Paragraph Snippets ([fixed length rule removed; use the observed SERP format and clarity objective]) [Evidence Tier: Tier 3 — Industry observation]
+For “how to reset a business router,” the live SERP may show a short procedural list while the organic results contain troubleshooting guides. The analysis should tell the content strategist that the immediate task is procedural and that the page should expose an ordered method prominently. It should also note any device-specific variation visible in the results. The observation does not establish that a particular list shape causes ranking improvement. [Evidence Tier: Tier 3 — Industry observation]
 
+## Handoff boundary
 
-- Paragraphs are 70% of all featured snippets ([Semrush/Ghergich study](https://www.semrush.com/blog/featured-snippets/)). The target is [fixed length rule removed; use the observed SERP format and clarity objective], using the observed SERP format rather than a fixed word target; the statistical sweet spot. Every example below is a real failure pattern — answer buried, format wrong, or structure missing the H2-then-answer handoff. [Evidence Tier: Tier 3 — Industry observation]
+Send the observed format and task to `serp-feature-optimization` only after the SERP evidence is recorded. That downstream file decides how the target page should express the answer and whether structured data or another representation is appropriate under current documentation. [Evidence Tier: Tier 1 — Officially documented]
 
+## Failure signatures
 
-- ### Example 1: "what is content marketing" [Evidence Tier: Tier 3 — Industry observation]
+Common mistakes are sampling the wrong market, confusing a SERP feature with an organic-page format, copying competitor wording, and treating a temporary observation as a stable ranking law. When evidence is thin, keep the conclusion descriptive and label causal explanations as **Tier 4 — Hypothesis**. [Evidence Tier: Tier 4 — Hypothesis]
 
-
-- **Failing version** (a 300-word paragraph buried under an H3 on the fourth scroll of a marketing blog): [Evidence Tier: Tier 3 — Industry observation]
-
-## Implementation guide
-Use **snippet format analysis** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
-
-## Specific example
-On `https://example.com/snippet-format-analysis`, a practitioner discovers a concrete **snippet format analysis** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
-
-## Red flags
-Common failure modes for **snippet format analysis** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
-
-## Topic-specific operating notes
-Treat **snippet format analysis** as the concrete object of analysis within **serp-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant organic results, SERP features, result formats, query patterns, and search-result observation signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `serp-analysis/snippet-format-analysis` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **snippet format analysis**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **snippet format analysis**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

@@ -1,41 +1,31 @@
-# Engagement Analysis
+# Engagement
 
+**Purpose.** This reference is the operating memory for `analytics-analysis` when the exact job is to **interpret engagement measures in the context of the page's intended task**. Use it to decide what evidence to gather, how to act on the named artifact, and what would invalidate the conclusion. It is not a claim about an undisclosed ranking formula and it does not guarantee an outcome. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `analytics analysis` skill a concrete operating method for **engagement analysis**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Decision boundary
 
+The unit of work is **engagement**, not “SEO” in general. Before opening a checklist, name the URL, dataset, query group, experiment, stakeholder decision, or outreach asset under review. Record the state that exists now and the state the business or user actually needs. The distinction matters: a technically clean implementation can still be the wrong action if it serves the wrong audience, market, or commercial objective. [Evidence Tier: Tier 3 — Industry observation]
 
-## Core principles
+## Operator sequence
 
+- define what meaningful engagement means for the page type [Evidence Tier: Tier 3 — Industry observation]
+- compare behavior across relevant cohorts [Evidence Tier: Tier 3 — Industry observation]
+- use qualitative evidence when analytics cannot explain the observed behavior [Evidence Tier: Tier 1 — Officially documented]
 
-- Use engagement metrics to diagnose whether landing-page traffic is useful, while recognizing measurement differences across implementations. [Evidence Tier: Tier 3 — Industry observation]
+Use the action list as a sequence of observations rather than a quota. Preserve source URLs, screenshots, exports, request/response evidence, query groups, or stakeholder records that another practitioner could inspect. When first-hand evidence is unavailable, do not manufacture first-person experience, customer results, credentials, measurements, or testimonials. [Evidence Tier: Tier 1 — Officially documented]
 
+## Scenario walk-through
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
+A glossary page may legitimately have short sessions because the answer is immediate, while a product-comparison page may need deeper interaction; the metric must be read against task completion rather than a universal benchmark. The example is hypothetical unless the operator attaches an identifiable real source. Treat it as a pattern for reasoning, not evidence that the tactic caused a particular result. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure signatures
 
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
+['treating bounce or engagement thresholds as SEO rules', 'penalizing pages for satisfying users quickly', 'comparing unlike page types without context'] [Evidence Tier: Tier 3 — Industry observation]
 
+A second class of error is methodological: confusing an observed sequence with a causal result, using a vendor benchmark as though it were universal, or converting an industry observation into a documented Google requirement. When that happens, downgrade the statement to the weaker evidence tier or remove it. [Evidence Tier: Tier 4 — Hypothesis]
 
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
+## Evidence handoff
 
-**Source basis:** New guidance for the Elite architecture; no direct legacy equivalent was available. The procedures below are deliberately specific to `engagement` and should be used as an operating aid, not as a claim about a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+Before handing the result to the parent skill, attach the source or measurement that supports each material conclusion and state the next validation step. Keep the recommendation separate from the evidence that motivates it. If the recommended action involves search policy, structured data, redirects, links, or generative-search visibility, verify the current official guidance before implementation. Do not imply that a structured-data field, content pattern, or outreach tactic guarantees rankings, citations, traffic, or revenue. [Evidence Tier: Tier 1 — Officially documented]
 
-## Field procedure
-Use **engagement** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
-
-## Concrete case
-On `https://example.com/engagement`, a practitioner discovers a concrete **engagement** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
-
-## Failure modes
-Common failure modes for **engagement** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
-
-## Topic-specific operating notes
-Treat **engagement** as the concrete object of analysis within **analytics-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant landing-page behavior, engaged sessions, events, journeys, attribution limits, and business context signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `analytics-analysis/engagement` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **engagement**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **engagement**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

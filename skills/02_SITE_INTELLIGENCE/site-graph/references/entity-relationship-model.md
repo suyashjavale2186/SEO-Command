@@ -1,36 +1,23 @@
-# Entity Relationships
+# Entity Relationship Model for the Site Graph
 
+**Scope.** This `site-graph` reference models relationships **between site-level objects** so the graph can support navigation, ownership, query mapping, and diagnosis. Its job is architectural: represent topics, pages, queries, competitors, links, authors, and conversions as nodes and meaningful relationships as edges. It is distinct from `information-gain/entity-relationship-analysis`, which examines missing meaning inside content. [Evidence Tier: Tier 3 — Industry observation]
 
-**Source basis:** Ported and filtered from: skills/semantic-gap-analysis/references/predicate-verb-fields.md, skills/semantic-gap-analysis/references/eav-triple-worked-examples.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
+## Graph schema
 
+Represent a page as connected to its primary topic, target query cluster, canonical URL, business owner, author or reviewer, related pages, conversion event, and relevant competitor set. Represent a topic as connected to parent and child topics, supporting pages, and demand evidence. Represent a query cluster as connected to pages that currently attract impressions or rankings. Store the source of each relationship so a graph edge is not mistaken for objective truth. [Evidence Tier: Tier 3 — Industry observation]
 
-- # Predicate Verb Fields by Domain [Evidence Tier: Tier 3 — Industry observation]
+The most useful edges answer operational questions. **Page → targets → query cluster** supports search mapping. **Page → links to → page** exposes the internal-link graph. **Page → supports → conversion** connects content to business value. **Topic → contains → page** reveals weak hubs or isolated spokes. **Competitor → ranks for → query cluster** frames competitive context without assuming two domains are otherwise equivalent. [Evidence Tier: Tier 3 — Industry observation]
 
+## Graph validation
 
-- Predicates are how Google's NLP recognizes that a page actually understands a topic. Domain experts use specific verbs; generalists say "use" and "help" and "leverage." When a language model reads a SERP, the verb density is one of the clearest fingerprints of expertise — and it's also one of the fastest gaps to spot in a competitor audit. [Evidence Tier: Tier 3 — Industry observation]
+A relationship should have a clear direction and reason. “Page A relates to Page B” is weak because it cannot explain what the relationship means. “Page A links contextually to Page B because B resolves the next decision introduced by A” is operationally useful. When a relationship is inferred rather than observed—such as a topic grouping created from semantic similarity—mark it as inferred and store the rule that created it. [Evidence Tier: Tier 4 — Hypothesis]
 
+## Concrete case
 
-- This reference collects verb fields from domains we see often. It's not exhaustive — it's calibration. When you're running the skill on a topic outside your comfort zone, these lists tell you what "expert-written" reads like so you can recognize the gap in your draft. [Evidence Tier: Tier 3 — Industry observation]
+A software site has a topic hub for “inventory management” connected to guides on stock forecasting, barcode workflows, warehouse integrations, and vendor selection. One high-value guide has no inbound contextual links and no mapped conversion path. The graph makes the problem visible as a missing edge rather than as a vague “weak content” judgment. The site-graph skill can then pass the exact relationship to the internal-link or strategy skill. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure modes
 
-- Koray Tuğberk GÜBÜR's framing: the predicate is the edge in the entity graph. Noun phrases are the nodes. If your page is all nodes and no edges, you haven't said anything the language model can connect. [Evidence Tier: Tier 3 — Industry observation]
+Do not use a graph edge as proof of causality. Do not create thousands of weak semantic edges merely to make a graph look complete. Do not overwrite the canonical source with a derived label. The graph is a decision aid; its value comes from traceable relationships that support an actual diagnosis or action. [Evidence Tier: Tier 3 — Industry observation]
 
-## Operator notes
-Use **entity relationship model** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
-
-## Applied scenario
-On `https://example.com/entity-relationship-model`, a practitioner discovers a concrete **entity relationship model** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
-
-## Stop conditions
-Common failure modes for **entity relationship model** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
-
-## Topic-specific operating notes
-Treat **entity relationship model** as the concrete object of analysis within **site-graph**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant relationships among topics, entities, pages, queries, competitors, authors, links, and conversions signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `site-graph/entity-relationship-model` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **entity relationship model**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **entity relationship model**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

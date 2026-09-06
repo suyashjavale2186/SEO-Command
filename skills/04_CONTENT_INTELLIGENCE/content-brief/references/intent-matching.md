@@ -15,3 +15,9 @@ A brief is weak when it specifies article length instead of the reader's task, t
 
 ## Evidence boundary
 Intent matching is an observed editorial framework, not a statement of private Google behavior. Undocumented mechanism explanations are **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]
+
+
+## Briefing consequence
+Intent classification becomes useful only when it changes the page plan. Record the dominant task, the expected content format, the evidence the reader needs before acting, and the business outcome the page is expected to support. A query with comparison intent should produce an evaluation structure; a troubleshooting query should prioritize diagnosis and recovery steps. [Evidence Tier: Tier 3 — Industry observation]
+
+When the SERP mixes intents, do not force the page to answer every possible task. Identify the strongest coherent job for the proposed URL and send adjacent questions to supporting pages or sections where doing so improves navigation rather than diluting the main promise. [Evidence Tier: Tier 3 — Industry observation]

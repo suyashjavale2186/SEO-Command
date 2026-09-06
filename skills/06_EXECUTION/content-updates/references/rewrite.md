@@ -1,41 +1,48 @@
 # Rewrite
 
+**Purpose.** This reference is the operating memory for `content-updates` when the exact job is to **replace an underperforming page when its topic remains worthwhile but the current treatment is fundamentally wrong**. Use it to decide what evidence to gather, how to act on the named artifact, and what would invalidate the conclusion. It is not a claim about an undisclosed ranking formula and it does not guarantee an outcome. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `content updates` skill a concrete operating method for **rewrite**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Control object
 
+The unit of work is **rewrite**, not “SEO” in general. Before opening a checklist, name the URL, dataset, query group, experiment, stakeholder decision, or outreach asset under review. Record the state that exists now and the state the business or user actually needs. The distinction matters: a technically clean implementation can still be the wrong action if it serves the wrong audience, market, or commercial objective. [Evidence Tier: Tier 3 — Industry observation]
 
-## Core principles
+## Diagnostic route
 
+- diagnose intent mismatch or evidence weakness [Evidence Tier: Tier 3 — Industry observation]
+- retain valuable facts and links [Evidence Tier: Tier 3 — Industry observation]
+- rebuild information architecture around the searcher's task [Evidence Tier: Tier 3 — Industry observation]
+- validate the new version against the old baseline [Evidence Tier: Tier 3 — Industry observation]
 
-- Use the reference to help the content updates skill make defensible decisions about rewrite. [Evidence Tier: Tier 3 — Industry observation]
+Use the action list as a sequence of observations rather than a quota. Preserve source URLs, screenshots, exports, request/response evidence, query groups, or stakeholder records that another practitioner could inspect. When first-hand evidence is unavailable, do not manufacture first-person experience, customer results, credentials, measurements, or testimonials. [Evidence Tier: Tier 1 — Officially documented]
 
+## Concrete situation
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
+A 'best accounting software' article that is actually a generic vendor list can be rewritten into a comparison framework with eligibility criteria, limitations, and evidence, while preserving useful internal links. The example is hypothetical unless the operator attaches an identifiable real source. Treat it as a pattern for reasoning, not evidence that the tactic caused a particular result. [Evidence Tier: Tier 3 — Industry observation]
 
+## Abort conditions
 
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
+['rewriting because competitors are longer', 'changing topic without business justification', 'removing first-party evidence'] [Evidence Tier: Tier 3 — Industry observation]
 
+A second class of error is methodological: confusing an observed sequence with a causal result, using a vendor benchmark as though it were universal, or converting an industry observation into a documented Google requirement. When that happens, downgrade the statement to the weaker evidence tier or remove it. [Evidence Tier: Tier 4 — Hypothesis]
 
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
+## Next-review cues
 
-**Source basis:** New guidance for the Elite architecture; no direct legacy equivalent was available. The procedures below are deliberately specific to `rewrite` and should be used as an operating aid, not as a claim about a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+Before handing the result to the parent skill, attach the source or measurement that supports each material conclusion and state the next validation step. Keep the recommendation separate from the evidence that motivates it. If the recommended action involves search policy, structured data, redirects, links, or generative-search visibility, verify the current official guidance before implementation. Do not imply that a structured-data field, content pattern, or outreach tactic guarantees rankings, citations, traffic, or revenue. [Evidence Tier: Tier 1 — Officially documented]
 
-## Triage method
-Draft from the evidence map, not from the keyword alone. Put the clearest answer or action near the point where the reader needs it, use specific examples supplied by the business, and distinguish sourced facts from interpretation. The writing should show reasoning, useful qualifications, and original evidence instead of merely avoiding words that “sound like AI.” [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.
 
-## Scenario walk-through
-A chargeback article replaces generic advice with a real merchant scenario: what signal the team saw, what hypothesis they tested, what failed, and what changed. The story is included only because the business supplied the details and approved publication. [Evidence Tier: Tier 3 — Industry observation]
+## Rewrite sequence
 
-## Escalation triggers
-Generic introductions that delay the answer; empty claims such as “experts agree” without attribution; fabricated anecdotes; repetitive keyword insertion; or stylistic edits whose only goal is to fool an AI detector. [Evidence Tier: Tier 1 — Officially documented]
+A rewrite is warranted only after diagnosis establishes that the page's **existing treatment** is the problem and the underlying URL still has a valid job. Start by preserving the current page, query cluster, conversion role, inbound links, and distinctive first-party evidence. Then compare the page promise with the dominant search task and decide what must change in the information architecture. [Evidence Tier: Tier 3 — Industry observation]
 
-## Topic-specific operating notes
-Treat **rewrite** as the concrete object of analysis within **content-updates**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant refresh, rewrite, consolidate, redirect, or delete decisions tied to evidence signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
+Rebuild from the reader outward: lead with the decision or answer, remove material that does not support that task, add missing evidence, and restructure examples around the questions readers actually face. Keep claims that remain valid and re-verify volatile sections. The rewrite should be materially clearer, not merely longer. [Evidence Tier: Tier 3 — Industry observation]
 
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
+## Concrete case
 
-### Concrete operator case
-Imagine a real but hypothetical organization using `content-updates/rewrite` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **rewrite**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
+A “best CRM for agencies” article contains generic vendor descriptions but almost no agency-specific selection criteria. Search evidence shows comparison intent, while sales notes reveal that multi-client permissions and reporting are recurring buying questions. The rewrite turns those criteria into the organizing framework, adds documented product capabilities, and retains the useful comparison evidence already present. [Evidence Tier: Tier 3 — Industry observation]
 
-### Topic-specific failure modes
-Watch for the characteristic mistake of **rewrite**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+## Failure modes
+
+Do not treat competitor length as the reason to rewrite. Do not erase the page's useful history before preserving it. Do not change the target intent because a different keyword looks larger. Do not add invented case studies or performance claims to make the new version appear authoritative. [Evidence Tier: Tier 3 — Industry observation]
+
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

@@ -16,3 +16,9 @@ Redirecting every obsolete page to the homepage, combining unrelated intents, re
 
 ## Evidence boundary
 The decision framework does not expose a private Google redirect signal. Undocumented causal claims remain **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]
+
+
+## Validation of the destination
+Do not stop at confirming a redirect response. Open the destination and compare its promise with the old URL's search intent, navigation context, and important conversion path. Check that internal links no longer send users toward the retired address and that the redirect does not create a chain through another obsolete URL. [Evidence Tier: Tier 1 — Officially documented]
+
+If the old page represented a distinct market, product, or regulation, require evidence that the replacement represents the same user task closely enough to justify the lifecycle decision. When that equivalence is uncertain, prefer a human review over an automatic redirect rule. [Evidence Tier: Tier 3 — Industry observation]

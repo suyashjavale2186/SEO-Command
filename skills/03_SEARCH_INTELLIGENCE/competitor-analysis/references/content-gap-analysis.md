@@ -35,9 +35,6 @@ A comparison brief for “best payroll software for a 50-person company” conta
 ## Failure signatures
 Briefing from keywords alone; specifying an article length instead of a user task; making “cover everything” the only content requirement; or approving a topic before its evidence and conversion role are clear. [Evidence Tier: Tier 3 — Industry observation]
 
-## Topic-specific operating notes
-Treat **content gap analysis** as the concrete object of analysis within **competitor-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant competitor selection, comparability, content gaps, authority context, and differentiating evidence signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
 When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
 ### Concrete operator case
@@ -45,3 +42,19 @@ Imagine a real but hypothetical organization using `competitor-analysis/content-
 
 ### Topic-specific failure modes
 Watch for the characteristic mistake of **content gap analysis**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+
+## Competitive content gap
+
+This reference asks **what competitors cover that the target site does not**, with emphasis on user tasks and evidence rather than page length. Extract the actual questions, comparisons, decision criteria, supporting evidence, examples, and limitations that recur across comparable competitors. Then separate missing coverage that matters from material that is merely decorative. [Evidence Tier: Tier 3 — Industry observation]
+
+A gap becomes actionable when it can be tied to search intent, a business need, or a defensible information advantage. Record the competitor URL, the missing topic or relationship, why it matters, and what first-party or authoritative source could close it. If the target site cannot supply the evidence, the gap may belong in research rather than immediate publishing. [Evidence Tier: Tier 3 — Industry observation]
+
+## Worked case
+
+Three competing pages for “inventory software for restaurants” all explain generic stock control, but two include supplier reconciliation workflows and one includes an implementation checklist. A restaurant-software company can treat supplier reconciliation as a genuine coverage gap only if its product and expertise support a useful explanation; copying the competitor's checklist verbatim would add little value. [Evidence Tier: Tier 3 — Industry observation]
+
+## Failure modes
+
+Do not equate every competitor heading with an obligation. Do not use one competitor as a universal benchmark. Do not report missing content without identifying why the omission matters to the intended audience. Do not turn a gap count into an unsupported prediction of ranking impact. [Evidence Tier: Tier 3 — Industry observation]
+
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

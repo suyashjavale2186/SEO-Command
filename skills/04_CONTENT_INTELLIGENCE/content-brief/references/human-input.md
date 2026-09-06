@@ -1,56 +1,23 @@
-# Human Input
+# Human Input for Content Briefs
 
+**Scope.** This reference is for the **content-brief** stage where a strategist needs first-party material before an outline is considered publishable. Its job is intake and incorporation: identify which business facts, customer language, proof points, constraints, and expert observations can change the proposed page. It is not the same as the `expert-interview` reference, which governs how the interview itself is conducted. [Evidence Tier: Tier 3 — Industry observation]
 
+## Intake map
 
+Start with the briefing question: **what can the client or subject-matter expert tell us that a public SERP cannot?** Capture product facts, customer objections, differentiators, common edge cases, operational constraints, source documents, approved claims, and examples of real decisions. For each item, record who supplied it, whether it is current, and whether it can be substantiated outside the organization. [Evidence Tier: Tier 3 — Industry observation]
 
-- # Technique 17: Human Input Framework -- The Critical Differentiator [Evidence Tier: Tier 3 — Industry observation]
+Translate the intake into outline consequences. A first-party fact should become a section only when it changes the user's understanding or decision. A customer objection may alter the order of sections. A policy constraint may rule out an otherwise attractive recommendation. A proprietary comparison criterion may create a genuinely different evaluation framework. The brief should show these consequences explicitly rather than pasting interview notes into a content outline. [Evidence Tier: Tier 3 — Industry observation]
 
+## Briefing worksheet
 
-- ## What It Is [Evidence Tier: Tier 3 — Industry observation]
+Use four columns: **input**, **source**, **editorial consequence**, and **verification state**. Example: “support tickets repeatedly mention migration downtime” → support-ticket export → add a migration-risk section and scenario → verify against current product documentation. This keeps the page plan grounded in actual knowledge rather than generic persona assumptions. [Evidence Tier: Tier 3 — Industry observation]
 
+## Concrete scenario
 
-- A structured system for collecting and integrating human-provided content into AI-assisted articles -- because AI without human input produces high-quality slop. The human's experiences, data, opinions, and case studies are what transform generic AI content into genuinely valuable, ranking-worthy articles. [Evidence Tier: Tier 3 — Industry observation]
+A managed IT provider is planning a page for buyers comparing outsourced support models. Public competitors cover response times and pricing models. The provider's support lead adds two differentiators: how after-hours incidents are escalated and which environments are excluded from standard coverage. Those details change the brief because they address real purchase-risk questions and cannot be copied safely from a competitor. The brief records the support lead as the source and flags any commercial claim that still needs confirmation. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure modes
 
-- ## Why It Works [Evidence Tier: Tier 3 — Industry observation]
+Do not turn “the client said it” into proof of an external factual claim. Do not treat one anecdote as representative of all customers. Do not invent a quote to make the outline sound authoritative. Do not request expert input after the outline is already locked if the unresolved question could change page structure. When an answer is unavailable, mark the gap and design around the uncertainty rather than manufacturing content. [Evidence Tier: Tier 1 — Officially documented]
 
-
-> Legacy source mentioned proprietary ranking mechanisms; in Elite, treat any causal interpretation as Tier 4 — Hypothesis unless Google documents it. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- - First-party data from your business [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Case studies with real clients, real numbers, real timelines [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Genuine opinions and contrarian perspectives based on experience [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Specific tool interactions, error messages, and unexpected results [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - The "what went wrong" stories that build trust [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## The Human Input Hierarchy [Evidence Tier: Tier 3 — Industry observation]
-
-## Working method
-Use **human input** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
-
-## Concrete illustration
-On `https://example.com/human-input`, a practitioner discovers a concrete **human input** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
-
-## Conditions that invalidate the result
-Common failure modes for **human input** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
-
-## Topic-specific operating notes
-Treat **human input** as the concrete object of analysis within **content-brief**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant briefing from SERP evidence, user task, information gain, evidence requirements, and business role signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `content-brief/human-input` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **human input**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **human input**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

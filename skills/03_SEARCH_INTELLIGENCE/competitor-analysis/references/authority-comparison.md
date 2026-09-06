@@ -35,9 +35,6 @@ On `https://example.com/authority-comparison`, a practitioner discovers a concre
 ## Red flags
 Common failure modes for **authority comparison** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
 
-## Topic-specific operating notes
-Treat **authority comparison** as the concrete object of analysis within **competitor-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant competitor selection, comparability, content gaps, authority context, and differentiating evidence signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
 When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
 ### Concrete operator case
@@ -45,3 +42,19 @@ Imagine a real but hypothetical organization using `competitor-analysis/authorit
 
 ### Topic-specific failure modes
 Watch for the characteristic mistake of **authority comparison**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+
+## Competitive authority comparison
+
+This reference operates at the **competitor/domain level**, not at the individual backlink level. Compare how competing sites earn and demonstrate authority around the target topic: original research, recognizable subject-matter experts, editorial references, specialist publications, product credibility, and breadth of genuinely useful coverage. [Evidence Tier: Tier 3 — Industry observation]
+
+The comparison should answer a strategic question: “What authority asset does the competitor have that our site lacks?” That may be a proprietary dataset, a respected author, a strong research partnership, or repeated coverage from a relevant trade publication. A domain metric can be a descriptive input, but it should not become the entire authority argument. [Evidence Tier: Tier 3 — Industry observation]
+
+## Worked case
+
+A niche manufacturing competitor is repeatedly cited by trade journals because it publishes annual benchmark data. Its advantage is not simply a larger backlink count; the underlying asset gives journalists a reason to reference it. The analysis therefore recommends developing a comparable evidence-generating asset rather than copying the competitor's exact link sources. [Evidence Tier: Tier 3 — Industry observation]
+
+## Failure modes
+
+Do not infer site authority from one famous link. Do not treat every competitor link as a target worth reproducing. Do not confuse domain-level comparison with page-level link evaluation. Send individual suspicious links to `authority-analysis/backlink-evaluation` and use this file for the strategic pattern above. [Evidence Tier: Tier 3 — Industry observation]
+
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

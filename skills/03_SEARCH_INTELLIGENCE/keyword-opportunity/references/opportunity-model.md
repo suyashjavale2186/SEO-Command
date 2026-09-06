@@ -18,3 +18,9 @@ Do not rank topics by volume alone, treat a tool's difficulty value as a fact ab
 
 ## Evidence boundary
 The model estimates opportunity from observations. It does not establish a private ranking formula or guarantee performance. Such claims are **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]
+
+
+## Opportunity interpretation
+The score is a decision aid, not a search-engine metric. Record each component separately so a high-demand query cannot hide poor commercial fit or weak ranking feasibility. A topic with moderate demand but excellent audience fit, proprietary evidence, and a clear conversion path may outrank a larger query that produces mostly research traffic outside the business's serviceable market. [Evidence Tier: Tier 3 — Industry observation]
+
+Revisit the score when the SERP changes materially, the business changes its offer, or first-party performance reveals a different conversion pattern. Preserve the prior inputs so a later analyst can see whether the change came from new evidence or a change in assumptions. [Evidence Tier: Tier 3 — Industry observation]

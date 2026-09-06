@@ -41,9 +41,6 @@ A page says an API feature is available on all plans. Vendor documentation shows
 ## Failure signatures
 Relying on snippets; citing search summaries; using old screenshots; conflating product marketing with independent validation; or allowing a confident tone to outpace the actual evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-## Topic-specific operating notes
-Treat **fact checking** as the concrete object of analysis within **write-content**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant evidence-first drafting, format fidelity, original insight, fact checking, and real-thinking signals signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
 When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
 ### Concrete operator case
@@ -51,3 +48,19 @@ Imagine a real but hypothetical organization using `write-content/fact-checking`
 
 ### Topic-specific failure modes
 Watch for the characteristic mistake of **fact checking**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+
+## Writer-side verification
+
+The writer's responsibility is to prevent unsupported material from entering the draft in the first place. Before polishing a paragraph, highlight every externally testable statement, statistic, quote, product attribute, regulatory statement, and first-person claim. Mark each as **verified**, **needs source**, **needs expert confirmation**, or **remove**. [Evidence Tier: Tier 3 — Industry observation]
+
+For a sourced fact, preserve the source next to the draft claim. For a derived calculation, keep the inputs and formula. For an expert statement, preserve the original speaker and context. For a current product feature, check the latest product documentation rather than reusing an older screenshot. This workflow is narrower than governance-level claim taxonomy: it is embedded in drafting so unsupported details are stopped before publication. [Evidence Tier: Tier 1 — Officially documented]
+
+## Concrete drafting case
+
+A guide says a payment provider “supports same-day settlement in every market.” Before publication, the writer checks the provider's current documentation and discovers the feature depends on region and account type. The draft becomes a qualified statement with the applicable scope, and the original overclaim is logged rather than silently softened. [Evidence Tier: Tier 1 — Officially documented]
+
+## Failure modes
+
+Do not keep an attractive sentence because the citation is difficult to find. Do not cite a search-result snippet as if it were the source. Do not convert an expert's anecdote into a universal statistic. Do not invent first-person experience to make a fact-check gap disappear. [Evidence Tier: Tier 1 — Officially documented]
+
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

@@ -21,22 +21,20 @@
 
 - **Failing version** (a 300-word paragraph buried under an H3 on the fourth scroll of a marketing blog): [Evidence Tier: Tier 3 — Industry observation]
 
-## Decision procedure
-Inspect the current featured-answer shape—paragraph, ordered list, unordered list, table, or another extraction pattern—and reproduce the underlying information structure only when it naturally answers the query. Keep the answer concise enough to be useful, but do not invent a fixed word target. Validate eligibility and representation through current documentation where structured data or page type requirements matter. [Evidence Tier: Tier 1 — Officially documented]
+## Implementation focus
 
-## Case study
-A query asking “how to calculate gross margin” surfaces a concise calculation and an example. The target page places the formula, defines the variables, then walks through a realistic example. It does not assume that matching the exact visible excerpt guarantees a featured result. [Evidence Tier: Tier 3 — Industry observation]
+This file specializes in **producing page structures that can be understood in the same format as a currently observed featured answer**. Start with the live query, identify the answer block's information type, then build the clearest equivalent section on the target page. Keep the answer self-contained enough to be useful without requiring the reader to decode surrounding marketing copy. [Evidence Tier: Tier 3 — Industry observation]
 
-## Common failure modes
-Stuffing unrelated facts around a snippet target; hiding important qualifications; copying a competitor’s exact wording; or turning an observed snippet size into a fixed publishing requirement. [Evidence Tier: Tier 1 — Officially documented]
+For definition queries, lead with the definition before expanding into qualifications. For process queries, use an explicit sequence when order matters. For comparison queries, use a table only when the underlying attributes are genuinely comparable. For list-shaped results, make item boundaries obvious. The exact amount of supporting text should follow the task, not a fixed snippet length. [Evidence Tier: Tier 3 — Industry observation]
 
-## Topic-specific operating notes
-Treat **featured snippets** as the concrete object of analysis within **serp-feature-optimization**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant featured snippets, People Also Ask, answer formats, rich-result eligibility, and SERP structure signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
+Where structured data is relevant, treat it as representation metadata and verify eligibility against current Google documentation. Do not claim that markup guarantees a featured answer or ranking improvement. [Evidence Tier: Tier 1 — Officially documented]
 
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
+## Worked implementation
 
-### Concrete operator case
-Imagine a real but hypothetical organization using `serp-feature-optimization/featured-snippets` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **featured snippets**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
+A page about “how to calculate gross margin” can open with the formula, define revenue and cost of goods sold, and then show a worked calculation using a clearly labeled hypothetical business. The answer structure mirrors the user's task while the surrounding section handles assumptions and limitations. That is preferable to hiding the calculation beneath a long brand introduction. [Evidence Tier: Tier 3 — Industry observation]
 
-### Topic-specific failure modes
-Watch for the characteristic mistake of **featured snippets**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+## Failure modes
+
+A snippet-oriented page fails when the answer is buried, the format does not match the task, the page makes unsupported claims, or the visible text is written primarily to manipulate extraction rather than help the reader. [Evidence Tier: Tier 3 — Industry observation]
+
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

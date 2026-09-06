@@ -1,0 +1,22 @@
+{
+  "reference_files": 181,
+  "cross_skill_pairs": 15979,
+  "tfidf_vectorizer": {
+    "library": "scikit-learn",
+    "version": "1.8.0",
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      1
+    ]
+  },
+  "average_cosine": 0.3319903418232807,
+  "maximum_cosine": 0.6987760189007032,
+  "pairs_gt_0_70": 0,
+  "pairs_gt_0_75": 0,
+  "pairs_gt_0_80": 0,
+  "word_count_method": "re.findall(r'\\b[\\w\u2019\\'-]+\\b', UTF-8 Markdown text; headings/labels/inline-code/evidence tags included)",
+  "reference_word_total": 93950,
+  "reference_word_min": 304,
+  "reference_word_max": 786
+}

@@ -1,41 +1,31 @@
 # Conversion Taxonomy
 
+**Purpose.** This reference is the operating memory for `conversion-model` when the exact job is to **classify business outcomes before selecting measurement**. Use it to decide what evidence to gather, how to act on the named artifact, and what would invalidate the conclusion. It is not a claim about an undisclosed ranking formula and it does not guarantee an outcome. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `conversion model` skill a concrete operating method for **conversion taxonomy**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Decision boundary
 
+The unit of work is **conversion taxonomy**, not “SEO” in general. Before opening a checklist, name the URL, dataset, query group, experiment, stakeholder decision, or outreach asset under review. Record the state that exists now and the state the business or user actually needs. The distinction matters: a technically clean implementation can still be the wrong action if it serves the wrong audience, market, or commercial objective. [Evidence Tier: Tier 3 — Industry observation]
 
-## Core principles
+## Operator sequence
 
+- separate macro conversions from assisting and diagnostic events [Evidence Tier: Tier 3 — Industry observation]
+- classify by commitment level and business value [Evidence Tier: Tier 3 — Industry observation]
+- map categories to the customer journey and operating owner [Evidence Tier: Tier 3 — Industry observation]
 
-- Create a hierarchy of business actions from micro-conversions to revenue events and distinguish leading indicators from actual value. [Evidence Tier: Tier 4 — Hypothesis]
+Use the action list as a sequence of observations rather than a quota. Preserve source URLs, screenshots, exports, request/response evidence, query groups, or stakeholder records that another practitioner could inspect. When first-hand evidence is unavailable, do not manufacture first-person experience, customer results, credentials, measurements, or testimonials. [Evidence Tier: Tier 1 — Officially documented]
 
+## Scenario walk-through
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
+For a subscription analytics product, a trial signup, activated workspace, sales-qualified account, paid conversion, expansion, and renewal are different conversion types; treating every button click as the same outcome would obscure the commercial hierarchy. The example is hypothetical unless the operator attaches an identifiable real source. Treat it as a pattern for reasoning, not evidence that the tactic caused a particular result. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure signatures
 
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
+['calling every interaction a conversion', 'mixing lead-stage events with revenue outcomes', 'creating categories that the CRM cannot actually record'] [Evidence Tier: Tier 3 — Industry observation]
 
+A second class of error is methodological: confusing an observed sequence with a causal result, using a vendor benchmark as though it were universal, or converting an industry observation into a documented Google requirement. When that happens, downgrade the statement to the weaker evidence tier or remove it. [Evidence Tier: Tier 4 — Hypothesis]
 
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
+## Evidence handoff
 
-**Source basis:** New guidance for the Elite architecture; no direct legacy equivalent was available. The procedures below are deliberately specific to `conversion-taxonomy` and should be used as an operating aid, not as a claim about a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+Before handing the result to the parent skill, attach the source or measurement that supports each material conclusion and state the next validation step. Keep the recommendation separate from the evidence that motivates it. If the recommended action involves search policy, structured data, redirects, links, or generative-search visibility, verify the current official guidance before implementation. Do not imply that a structured-data field, content pattern, or outreach tactic guarantees rankings, citations, traffic, or revenue. [Evidence Tier: Tier 1 — Officially documented]
 
-## Evidence map
-Define the business outcome before reading the metric. Separate content engagement from qualified leads, opportunities, purchases, retained subscriptions, or revenue; record event definitions and attribution scope; and preserve the join between landing page and business outcome. A higher raw event count is not automatically a better commercial result. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-## Practical case
-A B2B site records demo-start, qualified-demo, opportunity-created, and won-revenue events. A landing page has many demo starts but low qualification, so the team investigates lead quality instead of declaring success from the first event alone. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-## Disqualifiers
-Changing event definitions mid-period; double-counting conversions across systems; optimizing for the easiest micro-conversion; or claiming SEO caused revenue without documenting the attribution model. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-## Topic-specific operating notes
-Treat **conversion taxonomy** as the concrete object of analysis within **conversion-model**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant conversion paths, funnel stages, qualification, revenue linkage, and measurement ownership signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `conversion-model/conversion-taxonomy` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **conversion taxonomy**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **conversion taxonomy**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.

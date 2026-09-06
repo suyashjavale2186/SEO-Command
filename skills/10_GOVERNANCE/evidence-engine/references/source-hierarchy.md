@@ -1,41 +1,23 @@
 # Source Hierarchy
 
+**Scope.** `evidence-engine/source-hierarchy` decides **which kind of source should be preferred for a particular kind of claim** before fact-checking begins. Its job is source selection and provenance design; it does not verify the truth of each sentence—that is the specialized role of `fact-checking/source-verification`. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `evidence engine` skill a concrete operating method for **source hierarchy**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Match source to claim
 
+Use the most authoritative source appropriate to the proposition. Official Google documentation is the preferred source for documented Search behavior and policy. A regulator or standards body is the preferred source for its own rules. A company's product documentation is strongest for its own current functionality. A CRM or finance system is strongest for a first-party business metric. A reproducible independent study is stronger for an empirical effect than a vendor marketing page. [Evidence Tier: Tier 1 — Officially documented]
 
-## Core principles
+Source hierarchy is conditional, not a universal ranking of websites. A vendor may be the primary source for its own product specification while being a weak source for claims about the broader market. Likewise, an SEO industry study can be useful for an observational benchmark but cannot override an official Google statement about a documented policy. [Evidence Tier: Tier 3 — Industry observation]
 
+## Provenance record
 
-- Prefer primary official documentation, original datasets, direct experiment records, and clearly identified industry research over unsourced summaries. [Evidence Tier: Tier 3 — Industry observation]
+For each material claim, store **claim type**, **preferred source class**, **actual source**, **publication/update date**, **scope**, and **evidence tier**. If the ideal source is unavailable, record the substitution. That record lets later editors understand why a Tier 3 observation was used and prevents a weak secondary article from silently becoming a Tier 1-looking citation. [Evidence Tier: Tier 3 — Industry observation]
 
+## Concrete case
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
+The team needs three different sources for one article: official Search Central guidance for canonicalization, the company's product documentation for its API behavior, and internal sales data for close rates. An industry blog may explain context around all three, but it should not become the authority for claims owned by those primary sources. The hierarchy therefore changes by claim, even inside one paragraph. [Evidence Tier: Tier 1 — Officially documented]
 
+## Failure modes
 
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
+Do not select a source because it ranks highly in search. Do not treat a highly linked page as automatically authoritative. Do not use a source outside its scope merely because its prose is clearer. Do not collapse source quality and claim truth into one score; a strong source can still be misquoted or outdated, which is why `source-verification` remains a separate step. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-**Source basis:** New guidance for the Elite architecture; no direct legacy equivalent was available. The procedures below are deliberately specific to `source-hierarchy` and should be used as an operating aid, not as a claim about a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
-
-## Control points
-Use **source hierarchy** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
-
-## Production example
-On `https://example.com/source-hierarchy`, a practitioner discovers a concrete **source hierarchy** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
-
-## Failure signatures
-Common failure modes for **source hierarchy** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
-
-## Topic-specific operating notes
-Treat **source hierarchy** as the concrete object of analysis within **evidence-engine**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant claim classification, source quality, provenance, confidence, and recommendation evidence signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
-
-When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-### Concrete operator case
-Imagine a real but hypothetical organization using `evidence-engine/source-hierarchy` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **source hierarchy**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
-
-### Topic-specific failure modes
-Watch for the characteristic mistake of **source hierarchy**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
+**Evidence status:** Official / Empirical / Observational / Hypothesis, assigned claim by claim above.
