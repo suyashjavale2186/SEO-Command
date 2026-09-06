@@ -1,0 +1,1 @@
+Suggested internal dimensions: first-party evidence, original data/testing, unique examples, proprietary method, expert insight, original visuals, and research. Do not treat the score as a Google ranking threshold. [Tier 4 internal framework]

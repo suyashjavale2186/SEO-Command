@@ -1,0 +1,1 @@
+Google’s spam policies include link spam: links created primarily to manipulate rankings can violate policy. Treat every tactic as conditional and risk-review it. [Tier 1] https://developers.google.com/search/docs/essentials/spam-policies

@@ -1,0 +1,1 @@
+Information advantage means useful information that materially improves the page beyond what is readily available in comparable results; it is an internal quality concept, not a Google-visible score. [Tier 3–4]

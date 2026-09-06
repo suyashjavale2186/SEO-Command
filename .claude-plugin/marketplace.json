@@ -1,0 +1,79 @@
+{
+  "name": "superseo-elite-skills",
+  "owner": {
+    "name": "Bizwit AI",
+    "url": "https://bizwitai.com"
+  },
+  "metadata": {
+    "description": "Evidence-driven SEO operating system rebuilt from SuperSEO, with governance, business intelligence, technical/site intelligence, search/AI-search analysis, evidence-first content, authority, execution, measurement, experimentation, and strategy.",
+    "version": "1.0.0",
+    "repository": "https://github.com/bizwitai/superseo-skills"
+  },
+  "plugins": [
+    {
+      "name": "superseo-elite",
+      "source": "./",
+      "strict": false,
+      "description": "SuperSEO Elite: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
+      "version": "1.0.0",
+      "category": "seo",
+      "tags": [
+        "seo",
+        "technical-seo",
+        "content-strategy",
+        "search-console",
+        "ai-search",
+        "eeat",
+        "digital-pr",
+        "experimentation",
+        "evidence-driven"
+      ],
+      "skills": [
+        "./skills/01_BUSINESS_INTELLIGENCE/business-context",
+        "./skills/01_BUSINESS_INTELLIGENCE/audience-model",
+        "./skills/01_BUSINESS_INTELLIGENCE/conversion-model",
+        "./skills/02_SITE_INTELLIGENCE/technical-seo-audit",
+        "./skills/02_SITE_INTELLIGENCE/site-graph",
+        "./skills/02_SITE_INTELLIGENCE/internal-links",
+        "./skills/02_SITE_INTELLIGENCE/cannibalization",
+        "./skills/02_SITE_INTELLIGENCE/indexation",
+        "./skills/03_SEARCH_INTELLIGENCE/keyword-opportunity",
+        "./skills/03_SEARCH_INTELLIGENCE/serp-analysis",
+        "./skills/03_SEARCH_INTELLIGENCE/intent-analysis",
+        "./skills/03_SEARCH_INTELLIGENCE/competitor-analysis",
+        "./skills/03_SEARCH_INTELLIGENCE/generative-search",
+        "./skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization",
+        "./skills/04_CONTENT_INTELLIGENCE/content-brief",
+        "./skills/04_CONTENT_INTELLIGENCE/information-gain",
+        "./skills/04_CONTENT_INTELLIGENCE/eeat",
+        "./skills/04_CONTENT_INTELLIGENCE/expert-interview",
+        "./skills/04_CONTENT_INTELLIGENCE/write-content",
+        "./skills/04_CONTENT_INTELLIGENCE/improve-content",
+        "./skills/05_AUTHORITY/digital-pr",
+        "./skills/05_AUTHORITY/link-opportunities",
+        "./skills/05_AUTHORITY/authority-analysis",
+        "./skills/06_EXECUTION/technical-fixes",
+        "./skills/06_EXECUTION/content-updates",
+        "./skills/06_EXECUTION/internal-link-actions",
+        "./skills/06_EXECUTION/publishing-plan",
+        "./skills/07_MEASUREMENT/search-console-analysis",
+        "./skills/07_MEASUREMENT/analytics-analysis",
+        "./skills/07_MEASUREMENT/conversions",
+        "./skills/07_MEASUREMENT/generative-search-visibility",
+        "./skills/07_MEASUREMENT/content-decay",
+        "./skills/08_EXPERIMENTATION/hypothesis",
+        "./skills/08_EXPERIMENTATION/seo-experiment",
+        "./skills/08_EXPERIMENTATION/measurement",
+        "./skills/08_EXPERIMENTATION/learning",
+        "./skills/09_STRATEGY/opportunity-scoring",
+        "./skills/09_STRATEGY/prioritization",
+        "./skills/09_STRATEGY/seo-roadmap",
+        "./skills/10_GOVERNANCE/evidence-engine",
+        "./skills/10_GOVERNANCE/fact-checking",
+        "./skills/10_GOVERNANCE/red-team",
+        "./skills/10_GOVERNANCE/risk-detection",
+        "./skills/10_GOVERNANCE/seo-myth-detection"
+      ]
+    }
+  ]
+}

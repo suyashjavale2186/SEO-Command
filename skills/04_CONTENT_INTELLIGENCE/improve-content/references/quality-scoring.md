@@ -1,0 +1,1 @@
+Use a multidimensional editorial rubric—accuracy, usefulness, evidence, originality, intent fit, clarity, trust, and business alignment. This is an internal quality score, not a Google score. [Tier 4]

@@ -1,0 +1,1 @@
+Translate business goals into measurable outcomes and separate leading SEO indicators from business outcomes. Do not treat traffic as the business goal unless traffic itself is the defined value. [Tier 2–3]

@@ -1,0 +1,1 @@
+Google states that AI Overviews and AI Mode use core search foundations; there are no secret special technical requirements beyond foundational SEO. [Tier 1] https://developers.google.com/search/docs/appearance/ai-features

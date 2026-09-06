@@ -1,0 +1,29 @@
+name: release-skills
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skill layout
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root=Path("skills")
+          for skill in root.glob("*/*"):
+              if skill.is_dir():
+                  assert (skill/"SKILL.md").exists(), skill
+                  assert (skill/"references").is_dir(), skill
+          print("Skill layout OK")
+          PY
+      - name: Build archive
+        run: zip -qr superseo-elite.zip . -x ".git/*"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: superseo-elite
+          path: superseo-elite.zip

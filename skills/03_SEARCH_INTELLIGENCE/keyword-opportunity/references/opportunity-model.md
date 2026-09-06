@@ -1,0 +1,1 @@
+Opportunity is an internal business/SEO decision model, not a Google score. Formula: Business Value × Demand × Intent Fit × Ranking Feasibility × Information Advantage × Authority Fit × Conversion Potential ÷ Resource Cost. [Tier 4 internal framework]

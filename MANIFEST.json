@@ -1,0 +1,534 @@
+[
+  {
+    "category": "01_BUSINESS_INTELLIGENCE",
+    "skill": "business-context",
+    "files": [
+      "skills/01_BUSINESS_INTELLIGENCE/business-context/SKILL.md",
+      "skills/01_BUSINESS_INTELLIGENCE/business-context/references/business-context-framework.md",
+      "skills/01_BUSINESS_INTELLIGENCE/business-context/references/business-data-schema.md",
+      "skills/01_BUSINESS_INTELLIGENCE/business-context/references/business-goals.md",
+      "skills/01_BUSINESS_INTELLIGENCE/business-context/references/governance-contract.md"
+    ]
+  },
+  {
+    "category": "01_BUSINESS_INTELLIGENCE",
+    "skill": "audience-model",
+    "files": [
+      "skills/01_BUSINESS_INTELLIGENCE/audience-model/SKILL.md",
+      "skills/01_BUSINESS_INTELLIGENCE/audience-model/references/audience-research-framework.md",
+      "skills/01_BUSINESS_INTELLIGENCE/audience-model/references/governance-contract.md",
+      "skills/01_BUSINESS_INTELLIGENCE/audience-model/references/persona-evidence.md",
+      "skills/01_BUSINESS_INTELLIGENCE/audience-model/references/searcher-intent-model.md"
+    ]
+  },
+  {
+    "category": "01_BUSINESS_INTELLIGENCE",
+    "skill": "conversion-model",
+    "files": [
+      "skills/01_BUSINESS_INTELLIGENCE/conversion-model/SKILL.md",
+      "skills/01_BUSINESS_INTELLIGENCE/conversion-model/references/business-value-mapping.md",
+      "skills/01_BUSINESS_INTELLIGENCE/conversion-model/references/conversion-taxonomy.md",
+      "skills/01_BUSINESS_INTELLIGENCE/conversion-model/references/funnel-model.md",
+      "skills/01_BUSINESS_INTELLIGENCE/conversion-model/references/governance-contract.md"
+    ]
+  },
+  {
+    "category": "02_SITE_INTELLIGENCE",
+    "skill": "technical-seo-audit",
+    "files": [
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/SKILL.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/canonicalization.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/core-web-vitals.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/crawlability.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/governance-contract.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/indexation.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/international-seo.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/javascript-rendering.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/migration-seo.md",
+      "skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/redirects.md"
+    ]
+  },
+  {
+    "category": "02_SITE_INTELLIGENCE",
+    "skill": "site-graph",
+    "files": [
+      "skills/02_SITE_INTELLIGENCE/site-graph/SKILL.md",
+      "skills/02_SITE_INTELLIGENCE/site-graph/references/entity-relationship-model.md",
+      "skills/02_SITE_INTELLIGENCE/site-graph/references/governance-contract.md",
+      "skills/02_SITE_INTELLIGENCE/site-graph/references/graph-diagnostics.md",
+      "skills/02_SITE_INTELLIGENCE/site-graph/references/hub-spoke-architecture.md",
+      "skills/02_SITE_INTELLIGENCE/site-graph/references/site-graph-schema.md"
+    ]
+  },
+  {
+    "category": "02_SITE_INTELLIGENCE",
+    "skill": "internal-links",
+    "files": [
+      "skills/02_SITE_INTELLIGENCE/internal-links/SKILL.md",
+      "skills/02_SITE_INTELLIGENCE/internal-links/references/anchor-text.md",
+      "skills/02_SITE_INTELLIGENCE/internal-links/references/contextual-linking.md",
+      "skills/02_SITE_INTELLIGENCE/internal-links/references/governance-contract.md",
+      "skills/02_SITE_INTELLIGENCE/internal-links/references/internal-link-graph.md",
+      "skills/02_SITE_INTELLIGENCE/internal-links/references/orphan-page-recovery.md"
+    ]
+  },
+  {
+    "category": "02_SITE_INTELLIGENCE",
+    "skill": "cannibalization",
+    "files": [
+      "skills/02_SITE_INTELLIGENCE/cannibalization/SKILL.md",
+      "skills/02_SITE_INTELLIGENCE/cannibalization/references/cannibalization-detection.md",
+      "skills/02_SITE_INTELLIGENCE/cannibalization/references/canonical-vs-redirect.md",
+      "skills/02_SITE_INTELLIGENCE/cannibalization/references/governance-contract.md",
+      "skills/02_SITE_INTELLIGENCE/cannibalization/references/intent-overlap.md",
+      "skills/02_SITE_INTELLIGENCE/cannibalization/references/merge-vs-differentiate.md"
+    ]
+  },
+  {
+    "category": "02_SITE_INTELLIGENCE",
+    "skill": "indexation",
+    "files": [
+      "skills/02_SITE_INTELLIGENCE/indexation/SKILL.md",
+      "skills/02_SITE_INTELLIGENCE/indexation/references/duplicate-url-patterns.md",
+      "skills/02_SITE_INTELLIGENCE/indexation/references/governance-contract.md",
+      "skills/02_SITE_INTELLIGENCE/indexation/references/indexation-diagnostics.md",
+      "skills/02_SITE_INTELLIGENCE/indexation/references/search-console-indexation.md",
+      "skills/02_SITE_INTELLIGENCE/indexation/references/sitemap-analysis.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "keyword-opportunity",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/references/demand-evidence.md",
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/references/governance-contract.md",
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/references/keyword-data-limitations.md",
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/references/opportunity-model.md",
+      "skills/03_SEARCH_INTELLIGENCE/keyword-opportunity/references/serp-feasibility.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "serp-analysis",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/aio-vs-organic.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/governance-contract.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/query-format-matching.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/serp-feature-recognition.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/serp-research.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/snippet-format-analysis.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "intent-analysis",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/governance-contract.md",
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/intent-conflicts.md",
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/intent-framework.md",
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/query-stage-model.md",
+      "skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/serp-intent-signals.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "competitor-analysis",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/authority-comparison.md",
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/competitor-comparability.md",
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/competitor-selection.md",
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/content-gap-analysis.md",
+      "skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/governance-contract.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "generative-search",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/references/ai-overviews-ai-mode.md",
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/references/citation-analysis.md",
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/references/entity-visibility.md",
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/references/generative-search-measurement.md",
+      "skills/03_SEARCH_INTELLIGENCE/generative-search/references/governance-contract.md"
+    ]
+  },
+  {
+    "category": "03_SEARCH_INTELLIGENCE",
+    "skill": "serp-feature-optimization",
+    "files": [
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/SKILL.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/featured-snippets.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/format-matching.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/governance-contract.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/people-also-ask.md",
+      "skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/rich-result-formats.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "content-brief",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/content-types.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/human-input.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/information-gain.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/intent-matching.md",
+      "skills/04_CONTENT_INTELLIGENCE/content-brief/references/serp-driven-briefing.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "information-gain",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/references/entity-relationship-analysis.md",
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/references/information-advantage-score.md",
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/references/missing-subtopics.md",
+      "skills/04_CONTENT_INTELLIGENCE/information-gain/references/original-evidence.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "eeat",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/eeat/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/authority.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/eeat-verification-rubric.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/experience.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/expertise.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/eeat/references/trust.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "expert-interview",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/eeat-signal-embedding.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/human-input-framework.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/information-gain-writing.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/knowledge-doc-template.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/question-bank.md",
+      "skills/04_CONTENT_INTELLIGENCE/expert-interview/references/voice-injection-playbook.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "write-content",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/write-content/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/anti-slop-ruleset.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/content-types.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/evidence-first-writing.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/fact-checking.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/quality-scoring.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/real-thinking-originality.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/serp-driven-writing.md",
+      "skills/04_CONTENT_INTELLIGENCE/write-content/references/structured-data.md"
+    ]
+  },
+  {
+    "category": "04_CONTENT_INTELLIGENCE",
+    "skill": "improve-content",
+    "files": [
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/SKILL.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/content-decay-signals.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/evidence-first-editing.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/freshness.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/governance-contract.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/performance-driven-updates.md",
+      "skills/04_CONTENT_INTELLIGENCE/improve-content/references/quality-scoring.md"
+    ]
+  },
+  {
+    "category": "05_AUTHORITY",
+    "skill": "digital-pr",
+    "files": [
+      "skills/05_AUTHORITY/digital-pr/SKILL.md",
+      "skills/05_AUTHORITY/digital-pr/references/campaign-risk.md",
+      "skills/05_AUTHORITY/digital-pr/references/digital-pr-framework.md",
+      "skills/05_AUTHORITY/digital-pr/references/expert-commentary.md",
+      "skills/05_AUTHORITY/digital-pr/references/governance-contract.md",
+      "skills/05_AUTHORITY/digital-pr/references/newsworthiness.md"
+    ]
+  },
+  {
+    "category": "05_AUTHORITY",
+    "skill": "link-opportunities",
+    "files": [
+      "skills/05_AUTHORITY/link-opportunities/SKILL.md",
+      "skills/05_AUTHORITY/link-opportunities/references/competitor-link-gap.md",
+      "skills/05_AUTHORITY/link-opportunities/references/governance-contract.md",
+      "skills/05_AUTHORITY/link-opportunities/references/guest-contributions.md",
+      "skills/05_AUTHORITY/link-opportunities/references/link-safety.md",
+      "skills/05_AUTHORITY/link-opportunities/references/partnerships.md",
+      "skills/05_AUTHORITY/link-opportunities/references/resource-pages.md"
+    ]
+  },
+  {
+    "category": "05_AUTHORITY",
+    "skill": "authority-analysis",
+    "files": [
+      "skills/05_AUTHORITY/authority-analysis/SKILL.md",
+      "skills/05_AUTHORITY/authority-analysis/references/authority-evidence.md",
+      "skills/05_AUTHORITY/authority-analysis/references/backlink-evaluation.md",
+      "skills/05_AUTHORITY/authority-analysis/references/governance-contract.md",
+      "skills/05_AUTHORITY/authority-analysis/references/referring-domain-quality.md",
+      "skills/05_AUTHORITY/authority-analysis/references/spam-risk.md"
+    ]
+  },
+  {
+    "category": "06_EXECUTION",
+    "skill": "technical-fixes",
+    "files": [
+      "skills/06_EXECUTION/technical-fixes/SKILL.md",
+      "skills/06_EXECUTION/technical-fixes/references/governance-contract.md",
+      "skills/06_EXECUTION/technical-fixes/references/implementation-checklist.md",
+      "skills/06_EXECUTION/technical-fixes/references/technical-action-spec.md",
+      "skills/06_EXECUTION/technical-fixes/references/validation.md"
+    ]
+  },
+  {
+    "category": "06_EXECUTION",
+    "skill": "content-updates",
+    "files": [
+      "skills/06_EXECUTION/content-updates/SKILL.md",
+      "skills/06_EXECUTION/content-updates/references/consolidate.md",
+      "skills/06_EXECUTION/content-updates/references/delete.md",
+      "skills/06_EXECUTION/content-updates/references/governance-contract.md",
+      "skills/06_EXECUTION/content-updates/references/redirect.md",
+      "skills/06_EXECUTION/content-updates/references/refresh.md",
+      "skills/06_EXECUTION/content-updates/references/rewrite.md",
+      "skills/06_EXECUTION/content-updates/references/update-decision-tree.md"
+    ]
+  },
+  {
+    "category": "06_EXECUTION",
+    "skill": "internal-link-actions",
+    "files": [
+      "skills/06_EXECUTION/internal-link-actions/SKILL.md",
+      "skills/06_EXECUTION/internal-link-actions/references/governance-contract.md",
+      "skills/06_EXECUTION/internal-link-actions/references/hub-strengthening.md",
+      "skills/06_EXECUTION/internal-link-actions/references/link-action-types.md",
+      "skills/06_EXECUTION/internal-link-actions/references/orphan-recovery.md"
+    ]
+  },
+  {
+    "category": "06_EXECUTION",
+    "skill": "publishing-plan",
+    "files": [
+      "skills/06_EXECUTION/publishing-plan/SKILL.md",
+      "skills/06_EXECUTION/publishing-plan/references/dependency-management.md",
+      "skills/06_EXECUTION/publishing-plan/references/governance-contract.md",
+      "skills/06_EXECUTION/publishing-plan/references/launch-checklist.md",
+      "skills/06_EXECUTION/publishing-plan/references/publishing-sequencing.md"
+    ]
+  },
+  {
+    "category": "07_MEASUREMENT",
+    "skill": "search-console-analysis",
+    "files": [
+      "skills/07_MEASUREMENT/search-console-analysis/SKILL.md",
+      "skills/07_MEASUREMENT/search-console-analysis/references/generative-search-reporting.md",
+      "skills/07_MEASUREMENT/search-console-analysis/references/governance-contract.md",
+      "skills/07_MEASUREMENT/search-console-analysis/references/page-analysis.md",
+      "skills/07_MEASUREMENT/search-console-analysis/references/query-analysis.md",
+      "skills/07_MEASUREMENT/search-console-analysis/references/search-console-metrics.md"
+    ]
+  },
+  {
+    "category": "07_MEASUREMENT",
+    "skill": "analytics-analysis",
+    "files": [
+      "skills/07_MEASUREMENT/analytics-analysis/SKILL.md",
+      "skills/07_MEASUREMENT/analytics-analysis/references/attribution-limitations.md",
+      "skills/07_MEASUREMENT/analytics-analysis/references/engagement.md",
+      "skills/07_MEASUREMENT/analytics-analysis/references/governance-contract.md",
+      "skills/07_MEASUREMENT/analytics-analysis/references/landing-page-analysis.md",
+      "skills/07_MEASUREMENT/analytics-analysis/references/organic-behavior.md"
+    ]
+  },
+  {
+    "category": "07_MEASUREMENT",
+    "skill": "conversions",
+    "files": [
+      "skills/07_MEASUREMENT/conversions/SKILL.md",
+      "skills/07_MEASUREMENT/conversions/references/assisted-conversions.md",
+      "skills/07_MEASUREMENT/conversions/references/conversion-metrics.md",
+      "skills/07_MEASUREMENT/conversions/references/governance-contract.md",
+      "skills/07_MEASUREMENT/conversions/references/revenue-attribution.md"
+    ]
+  },
+  {
+    "category": "07_MEASUREMENT",
+    "skill": "generative-search-visibility",
+    "files": [
+      "skills/07_MEASUREMENT/generative-search-visibility/SKILL.md",
+      "skills/07_MEASUREMENT/generative-search-visibility/references/citation-tracking.md",
+      "skills/07_MEASUREMENT/generative-search-visibility/references/entity-association.md",
+      "skills/07_MEASUREMENT/generative-search-visibility/references/governance-contract.md",
+      "skills/07_MEASUREMENT/generative-search-visibility/references/measurement-limitations.md",
+      "skills/07_MEASUREMENT/generative-search-visibility/references/mention-tracking.md"
+    ]
+  },
+  {
+    "category": "07_MEASUREMENT",
+    "skill": "content-decay",
+    "files": [
+      "skills/07_MEASUREMENT/content-decay/SKILL.md",
+      "skills/07_MEASUREMENT/content-decay/references/baseline-comparison.md",
+      "skills/07_MEASUREMENT/content-decay/references/decay-classification.md",
+      "skills/07_MEASUREMENT/content-decay/references/decay-signals.md",
+      "skills/07_MEASUREMENT/content-decay/references/governance-contract.md",
+      "skills/07_MEASUREMENT/content-decay/references/recovery-measurement.md"
+    ]
+  },
+  {
+    "category": "08_EXPERIMENTATION",
+    "skill": "hypothesis",
+    "files": [
+      "skills/08_EXPERIMENTATION/hypothesis/SKILL.md",
+      "skills/08_EXPERIMENTATION/hypothesis/references/causal-vs-correlational.md",
+      "skills/08_EXPERIMENTATION/hypothesis/references/experiment-design.md",
+      "skills/08_EXPERIMENTATION/hypothesis/references/governance-contract.md",
+      "skills/08_EXPERIMENTATION/hypothesis/references/hypothesis-framework.md"
+    ]
+  },
+  {
+    "category": "08_EXPERIMENTATION",
+    "skill": "seo-experiment",
+    "files": [
+      "skills/08_EXPERIMENTATION/seo-experiment/SKILL.md",
+      "skills/08_EXPERIMENTATION/seo-experiment/references/content-tests.md",
+      "skills/08_EXPERIMENTATION/seo-experiment/references/experiment-record.md",
+      "skills/08_EXPERIMENTATION/seo-experiment/references/governance-contract.md",
+      "skills/08_EXPERIMENTATION/seo-experiment/references/internal-link-tests.md",
+      "skills/08_EXPERIMENTATION/seo-experiment/references/title-tests.md"
+    ]
+  },
+  {
+    "category": "08_EXPERIMENTATION",
+    "skill": "measurement",
+    "files": [
+      "skills/08_EXPERIMENTATION/measurement/SKILL.md",
+      "skills/08_EXPERIMENTATION/measurement/references/baseline-methodology.md",
+      "skills/08_EXPERIMENTATION/measurement/references/governance-contract.md",
+      "skills/08_EXPERIMENTATION/measurement/references/significance-and-confidence.md",
+      "skills/08_EXPERIMENTATION/measurement/references/success-metrics.md"
+    ]
+  },
+  {
+    "category": "08_EXPERIMENTATION",
+    "skill": "learning",
+    "files": [
+      "skills/08_EXPERIMENTATION/learning/SKILL.md",
+      "skills/08_EXPERIMENTATION/learning/references/experiment-learning-log.md",
+      "skills/08_EXPERIMENTATION/learning/references/governance-contract.md",
+      "skills/08_EXPERIMENTATION/learning/references/site-specific-playbook.md",
+      "skills/08_EXPERIMENTATION/learning/references/strategy-update.md"
+    ]
+  },
+  {
+    "category": "09_STRATEGY",
+    "skill": "opportunity-scoring",
+    "files": [
+      "skills/09_STRATEGY/opportunity-scoring/SKILL.md",
+      "skills/09_STRATEGY/opportunity-scoring/references/business-value.md",
+      "skills/09_STRATEGY/opportunity-scoring/references/governance-contract.md",
+      "skills/09_STRATEGY/opportunity-scoring/references/opportunity-score.md",
+      "skills/09_STRATEGY/opportunity-scoring/references/ranking-feasibility.md",
+      "skills/09_STRATEGY/opportunity-scoring/references/resource-cost.md"
+    ]
+  },
+  {
+    "category": "09_STRATEGY",
+    "skill": "prioritization",
+    "files": [
+      "skills/09_STRATEGY/prioritization/SKILL.md",
+      "skills/09_STRATEGY/prioritization/references/governance-contract.md",
+      "skills/09_STRATEGY/prioritization/references/impact-effort.md",
+      "skills/09_STRATEGY/prioritization/references/now-next-later-ignore.md",
+      "skills/09_STRATEGY/prioritization/references/priority-score.md"
+    ]
+  },
+  {
+    "category": "09_STRATEGY",
+    "skill": "seo-roadmap",
+    "files": [
+      "skills/09_STRATEGY/seo-roadmap/SKILL.md",
+      "skills/09_STRATEGY/seo-roadmap/references/dependencies.md",
+      "skills/09_STRATEGY/seo-roadmap/references/governance-contract.md",
+      "skills/09_STRATEGY/seo-roadmap/references/quarterly-planning.md",
+      "skills/09_STRATEGY/seo-roadmap/references/roadmap-framework.md",
+      "skills/09_STRATEGY/seo-roadmap/references/sequencing.md"
+    ]
+  },
+  {
+    "category": "10_GOVERNANCE",
+    "skill": "evidence-engine",
+    "files": [
+      "skills/10_GOVERNANCE/evidence-engine/SKILL.md",
+      "skills/10_GOVERNANCE/evidence-engine/references/claim-verification.md",
+      "skills/10_GOVERNANCE/evidence-engine/references/confidence-calibration.md",
+      "skills/10_GOVERNANCE/evidence-engine/references/evidence-tiers.md",
+      "skills/10_GOVERNANCE/evidence-engine/references/governance-contract.md",
+      "skills/10_GOVERNANCE/evidence-engine/references/source-hierarchy.md"
+    ]
+  },
+  {
+    "category": "10_GOVERNANCE",
+    "skill": "fact-checking",
+    "files": [
+      "skills/10_GOVERNANCE/fact-checking/SKILL.md",
+      "skills/10_GOVERNANCE/fact-checking/references/factual-claim-types.md",
+      "skills/10_GOVERNANCE/fact-checking/references/governance-contract.md",
+      "skills/10_GOVERNANCE/fact-checking/references/source-verification.md",
+      "skills/10_GOVERNANCE/fact-checking/references/unsupported-claim-handling.md"
+    ]
+  },
+  {
+    "category": "10_GOVERNANCE",
+    "skill": "red-team",
+    "files": [
+      "skills/10_GOVERNANCE/red-team/SKILL.md",
+      "skills/10_GOVERNANCE/red-team/references/causal-inference-check.md",
+      "skills/10_GOVERNANCE/red-team/references/competitor-comparability.md",
+      "skills/10_GOVERNANCE/red-team/references/governance-contract.md",
+      "skills/10_GOVERNANCE/red-team/references/strategy-challenge.md",
+      "skills/10_GOVERNANCE/red-team/references/user-experience-risk.md"
+    ]
+  },
+  {
+    "category": "10_GOVERNANCE",
+    "skill": "risk-detection",
+    "files": [
+      "skills/10_GOVERNANCE/risk-detection/SKILL.md",
+      "skills/10_GOVERNANCE/risk-detection/references/governance-contract.md",
+      "skills/10_GOVERNANCE/risk-detection/references/implementation-risk.md",
+      "skills/10_GOVERNANCE/risk-detection/references/scaled-content-risk.md",
+      "skills/10_GOVERNANCE/risk-detection/references/seo-risk-taxonomy.md",
+      "skills/10_GOVERNANCE/risk-detection/references/spam-risk.md"
+    ]
+  },
+  {
+    "category": "10_GOVERNANCE",
+    "skill": "seo-myth-detection",
+    "files": [
+      "skills/10_GOVERNANCE/seo-myth-detection/SKILL.md",
+      "skills/10_GOVERNANCE/seo-myth-detection/references/google-claims-vs-hypotheses.md",
+      "skills/10_GOVERNANCE/seo-myth-detection/references/governance-contract.md",
+      "skills/10_GOVERNANCE/seo-myth-detection/references/hard-rule-audit.md",
+      "skills/10_GOVERNANCE/seo-myth-detection/references/myth-classification.md"
+    ]
+  }
+]

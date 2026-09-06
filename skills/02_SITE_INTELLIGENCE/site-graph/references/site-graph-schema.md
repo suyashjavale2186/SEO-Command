@@ -1,0 +1,1 @@
+Internal graph representation: nodes for domain, topic, page, query, competitor, link, author, conversion; edges for relevance, ranking, linking, authorship, and conversion. This is an internal model, not a Google ranking score. [Tier 4 internal framework]

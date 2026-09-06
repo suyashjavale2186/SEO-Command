@@ -1,0 +1,1 @@
+For site moves, Google recommends mapping old URLs to new ones and monitoring traffic, indexing, and crawl errors. [Tier 1] https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes

@@ -1,0 +1,1 @@
+Search Console generative-AI reporting provides visibility into appearances in generative features where available. Availability and data scope may change. [Tier 1] https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports

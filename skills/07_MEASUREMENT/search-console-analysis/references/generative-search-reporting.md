@@ -1,0 +1,1 @@
+Google introduced dedicated Search Console generative-AI performance reporting in 2026; availability and reporting scope may evolve. [Tier 1] https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports

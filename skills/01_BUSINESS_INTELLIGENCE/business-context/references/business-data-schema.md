@@ -1,0 +1,1 @@
+Suggested fields: business model, products, market, margin context, goals, constraints, owner, source, timestamp, confidence. This is an internal schema, not a Google signal. [Tier 4 for the schema itself]
