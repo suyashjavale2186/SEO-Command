@@ -1,12 +1,12 @@
 ---
 name: evidence-engine
-description: Classify material claims and recommendations by evidence strength so SuperSEO distinguishes documented search guidance from empirical findings, industry observations, and hypotheses.
+description: Classify material claims and recommendations by evidence strength so SEO Command distinguishes documented search guidance from empirical findings, industry observations, and hypotheses.
 ---
 
 # Evidence Engine
 
 ## Purpose
-Classify material claims and recommendations by evidence strength so SuperSEO distinguishes documented search guidance from empirical findings, industry observations, and hypotheses.
+Classify material claims and recommendations by evidence strength so SEO Command distinguishes documented search guidance from empirical findings, industry observations, and hypotheses.
 
 ## When to trigger this skill
 Always; invoke before producing any substantive SEO recommendation, strategy, audit conclusion, or claim that could influence implementation.

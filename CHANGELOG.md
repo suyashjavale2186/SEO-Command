@@ -1,4 +1,4 @@
-# SuperSEO Elite v4 — Changelog
+# SEO Command v4 — Changelog
 
 ## Pass scope
 

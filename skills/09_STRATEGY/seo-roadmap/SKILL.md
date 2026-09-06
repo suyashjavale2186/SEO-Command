@@ -9,7 +9,7 @@ description: Create a sequenced SEO roadmap that connects business goals, site/s
 Create a sequenced SEO roadmap that connects business goals, site/search opportunities, dependencies, experiments, and measurement into an adaptive operating plan.
 
 ## When to trigger this skill
-When a domain needs a multi-initiative SEO plan or when consolidating outputs from other SuperSEO skills.
+When a domain needs a multi-initiative SEO plan or when consolidating outputs from other SEO Command skills.
 
 ## Step-by-step workflow
 1. Collect approved findings from business, site, search, content, authority, execution, measurement, and experimentation skills.

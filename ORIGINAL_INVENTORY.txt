@@ -1,7 +1,7 @@
-# SuperSEO Elite v2 — Source Archive Inventory
+# SEO Command v2 — Source Archive Inventory
 
-Original raw-material archive: `superseo.plugin(2).zip` (172 ZIP entries; 120 reference Markdown files).
-Approved Elite baseline: `superseo-elite(1).zip` (384 ZIP entries; 224 reference Markdown files).
+Original raw-material archive: `SEO Command.plugin(2).zip` (172 ZIP entries; 120 reference Markdown files).
+Approved Elite baseline: `SEO Command(1).zip` (384 ZIP entries; 224 reference Markdown files).
 
 This v2 build starts from the approved Elite baseline and expands only the reference layer plus audit/change documentation. All SKILL.md files are preserved byte-for-byte.
 

@@ -19,13 +19,13 @@ Issues in any of the following are **not** security concerns of this repository 
 
 - **Claude Code, Claude Desktop, Claude.ai, Cursor, or any other AI agent platform** that may run these skills. Report to the platform vendor.
 - **Web-fetch, web-search, or browser tools** that the agent uses when running a skill. Those are the agent's capabilities, not introduced by this repo.
-- **The commercial Bizwit AI platform** referenced in the README. Contact Bizwit AI directly.
+- **Any third-party commercial platform or service** referenced elsewhere. Contact that provider directly.
 
 ## Reporting a vulnerability
 
 If you find a security concern in one of the skills — for example, a prompt that could cause an agent to leak data, perform unwanted writes, execute something the user did not authorize, or escalate permissions beyond user intent — please report it privately:
 
-**Email:** `hello@bizwitai.com` with subject line starting with `[SECURITY]`
+**Email:** `<suyashjavale2005@gmail.com>` with subject line starting with `[SECURITY]`
 
 Please do **not** open a public GitHub issue for security reports.
 

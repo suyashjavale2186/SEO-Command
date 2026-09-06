@@ -1,4 +1,4 @@
-# SuperSEO Elite
+# SEO Command
 
 **An evidence-driven SEO research, strategy, drafting, and measurement co-pilot for human SEO practitioners.**
 
@@ -26,7 +26,7 @@
 
 ## What This Is
 
-SuperSEO Elite is a structured skill system for Claude that supports SEO research, strategy, content briefing, drafting, and performance measurement. It's built to be used *by* a practitioner, not *instead of* one.
+SEO Command is a structured skill system for Claude that supports SEO research, strategy, content briefing, drafting, and performance measurement. It's built to be used *by* a practitioner, not *instead of* one.
 
 It does not have live-site access, doesn't manage client relationships, and doesn't carry accountability for outcomes. Every recommendation it produces is meant to be reviewed by a human before it's acted on, and nothing in this system promises rankings, traffic, or revenue results.
 
@@ -34,11 +34,11 @@ It does not have live-site access, doesn't manage client relationships, and does
 
 Most AI SEO tooling states best-practice numbers — keyword density targets, exact title-character limits, fixed snippet word counts — as if they were Google's actual rules. They usually aren't. They're heuristics, folklore, or outdated advice presented with false confidence.
 
-SuperSEO Elite is built around the opposite habit: **every non-trivial claim is tagged with how well-supported it actually is**, and fixed numeric "rules" that Google doesn't document are deliberately excluded in favor of qualitative judgment grounded in the live SERP, the site's own data, and the practitioner's context. A dedicated Governance layer (`10_GOVERNANCE`) exists specifically to catch overconfident or unsupported claims before they reach an output.
+SEO Command is built around the opposite habit: **every non-trivial claim is tagged with how well-supported it actually is**, and fixed numeric "rules" that Google doesn't document are deliberately excluded in favor of qualitative judgment grounded in the live SERP, the site's own data, and the practitioner's context. A dedicated Governance layer (`10_GOVERNANCE`) exists specifically to catch overconfident or unsupported claims before they reach an output.
 
 ## Architecture
 
-SuperSEO Elite is organized into 10 categories, each responsible for a distinct part of the SEO operating loop — from understanding the business, through research and content, to execution, measurement, and self-correction.
+SEO Command is organized into 10 categories, each responsible for a distinct part of the SEO operating loop — from understanding the business, through research and content, to execution, measurement, and self-correction.
 
 | # | Category | Responsible for |
 |---|---|---|
@@ -83,7 +83,7 @@ This is what lets `10_GOVERNANCE/seo-myth-detection` and `10_GOVERNANCE/red-team
 
 ## Installation
 
-SuperSEO Elite is packaged as a Claude plugin, declared in [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json) and [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json). The general pattern for installing a Claude plugin from a marketplace manifest is to add this repository as a plugin source and enable it from your Claude environment's plugin/skill settings.
+SEO Command is packaged as a Claude plugin, declared in [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json) and [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json). The general pattern for installing a Claude plugin from a marketplace manifest is to add this repository as a plugin source and enable it from your Claude environment's plugin/skill settings.
 
 > **Note:** the exact install command and UI may differ depending on which Claude surface you're using (Claude Code, Claude Desktop, Claude.ai). Verify the current steps against [Claude's plugin documentation](https://docs.claude.com) before installing, rather than relying solely on this README.
 
@@ -92,7 +92,7 @@ Once installed, individual skills activate automatically when a request matches 
 ## Folder Structure
 
 ```text
-superseo-elite/
+seo-command/
 ├── .claude-plugin/
 │   ├── plugin.json
 │   └── marketplace.json
@@ -130,7 +130,7 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the full version history, including the
 
 ## Credits
 
-**Created and architected by SUYASH JAVALE.**
+**Created and architected by Suyash Javale.**
 
 Suyash designed the evidence-tier governance system, defined the 10-category skill architecture, and directed the full rebuild of this plugin across four iterations — from the original SuperSEO plugin through the removal of unsupported numeric SEO rules, the addition of the governance and experimentation layers, and the final de-duplication and depth pass.
 

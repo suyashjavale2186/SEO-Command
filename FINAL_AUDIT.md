@@ -1,4 +1,4 @@
-# FINAL AUDIT — SuperSEO Elite v4
+# FINAL AUDIT — SEO Command v4
 
 ## Quality bar
 

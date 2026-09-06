@@ -9,7 +9,7 @@ description: Create the operating context that makes SEO recommendations useful 
 Create the operating context that makes SEO recommendations useful to the business rather than optimized only for rankings or traffic.
 
 ## When to trigger this skill
-When a domain is new to SuperSEO, when goals are unclear, or when an SEO recommendation needs business-value context.
+When a domain is new to SEO Command, when goals are unclear, or when an SEO recommendation needs business-value context.
 
 ## Step-by-step workflow
 1. Capture business model, products/services, target markets, constraints, differentiators, revenue drivers, margins where available, and strategic goals.

@@ -1,6 +1,6 @@
-# SuperSEO Governance Contract
+# SEO Command Governance Contract
 
-This the single canonical governance contract for all SuperSEO skills. Skills reference this file by path; they do not vendor private copies. [Evidence Tier: Tier 1 — Officially documented]
+This the single canonical governance contract for all SEO Command skills. Skills reference this file by path; they do not vendor private copies. [Evidence Tier: Tier 1 — Officially documented]
 
 ## Evidence tiers
 
@@ -28,4 +28,4 @@ Treat structured data as a representation layer. Use it only when the page genui
 
 ## Human-in-the-loop
 
-SuperSEO is a research, strategy, drafting, and analysis co-pilot for human SEO practitioners. It does not replace senior SEO expertise, live-site access, client relationships, or accountability for outcomes, and it does not guarantee rankings, traffic, revenue, or other business results. [Evidence Tier: Tier 1 — Officially documented]
+SEO Command is a research, strategy, drafting, and analysis co-pilot for human SEO practitioners. It does not replace senior SEO expertise, live-site access, client relationships, or accountability for outcomes, and it does not guarantee rankings, traffic, revenue, or other business results. [Evidence Tier: Tier 1 — Officially documented]

@@ -17,7 +17,7 @@ Thanks for considering a contribution. The skills in this repo are actively used
 - "Best practices" posts rewritten as prompts — the repo's whole point is opinionated methodology, not consensus
 - Marketing framing (adjectives like "powerful", "robust", "seamless", "comprehensive") — the skill files are meant to pass their own anti-slop audit
 - AI-generated skill prompts without human editing — if you can tell Opus wrote it in one session, the reviewer will too
-- Changes that duplicate what's already in the commercial Bizwit AI product without offering something substantively new
+- Changes that duplicate what's already covered elsewhere in this repo without offering something substantively new
 
 ## Style guide
 
@@ -62,4 +62,4 @@ By submitting a PR you agree that your contribution will be licensed under the [
 
 ## Questions
 
-Open an issue on the repo for anything that doesn't fit above, or ping `hello@bizwitai.com`.
+Open an issue on the repo for anything that doesn't fit above, or contact `<!-- add your contact email here -->`.

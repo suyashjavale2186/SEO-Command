@@ -1,4 +1,4 @@
-# AUDIT REPORT — SuperSEO Elite v4
+# AUDIT REPORT — SEO Command v4
 
 ## Method
 
@@ -121,4 +121,4 @@ The lexical scan found one legitimate governance reference to the phrase “keyw
 
 ## Outcome framing
 
-README and package text were checked for claims that SuperSEO replaces human SEO expertise or guarantees rankings, traffic, or revenue. No such claims were introduced in this pass.
+README and package text were checked for claims that SEO Command replaces human SEO expertise or guarantees rankings, traffic, or revenue. No such claims were introduced in this pass.

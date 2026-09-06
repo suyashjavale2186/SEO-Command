@@ -1,12 +1,12 @@
 ---
 name: fact-checking
-description: Verify material factual claims before publication or implementation and prevent unsupported assertions from entering SuperSEO outputs.
+description: Verify material factual claims before publication or implementation and prevent unsupported assertions from entering SEO Command outputs.
 ---
 
 # Fact Checking
 
 ## Purpose
-Verify material factual claims before publication or implementation and prevent unsupported assertions from entering SuperSEO outputs.
+Verify material factual claims before publication or implementation and prevent unsupported assertions from entering SEO Command outputs.
 
 ## When to trigger this skill
 Whenever a draft, audit, brief, recommendation, or reference contains factual claims that could affect user trust or implementation.
