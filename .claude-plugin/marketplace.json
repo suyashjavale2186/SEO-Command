@@ -1,22 +1,21 @@
 {
-  "name": "superseo-elite-skills",
+  "name": "SEO Command",
   "owner": {
-    "name": "Bizwit AI",
-    "url": "https://bizwitai.com"
+    "name": "Suyash Javale"  
   },
   "metadata": {
-    "description": "Evidence-driven SEO operating system rebuilt from SuperSEO, with governance, business intelligence, technical/site intelligence, search/AI-search analysis, evidence-first content, authority, execution, measurement, experimentation, and strategy.",
-    "version": "2.0.0",
-    "repository": "https://github.com/bizwitai/superseo-skills"
+    "description": "Evidence-driven SEO operating system built, with governance, business intelligence, technical/site intelligence, search/AI-search analysis, evidence-first content, authority, execution, measurement, experimentation, and strategy.",
+    "version": "4.0.0",
+    "repository": "https://github.com/suyashjavale2186/SEO-Command"
   },
   "plugins": [
     {
-      "name": "superseo-elite",
+      "name": "SEO Command",
       "source": "./",
       "strict": false,
-      "description": "SuperSEO Elite: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
-      "version": "2.0.0",
-      "category": "seo",
+      "description": "SEO Command: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
+      "version": "4.0.0",
+      "category": "SEO",
       "tags": [
         "seo",
         "technical-seo",
