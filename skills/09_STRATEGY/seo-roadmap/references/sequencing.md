@@ -1,64 +1,22 @@
-# Seo Sequencing
+# Roadmap Sequencing
 
+This reference sequences **strategic work across an SEO roadmap**, where the unit is a portfolio of related initiatives rather than an individual publishing task. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `seo roadmap` skill a concrete operating method for **SEO sequencing**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Strategic sequence
+Group work into enabling layers: measurement and access, technical blockers, foundational architecture, high-value content opportunities, authority initiatives, and experimentation. The exact order depends on dependencies and business priorities; the purpose is to prevent attractive projects from crowding out prerequisites. [Evidence Tier: Tier 3 — Industry observation]
 
+Mark dependencies between initiatives. A site-graph redesign may precede broad internal-link changes; a product-content strategy may require business-context and conversion mapping first; an experiment should not be used to evaluate a metric that cannot yet be measured reliably. [Evidence Tier: Tier 3 — Industry observation]
 
-## Core principles
+## Concrete scenario
+A B2B site wants to launch new topic clusters, but Search Console access is incomplete and important canonical conflicts remain. The roadmap places data access and indexation fixes before broad production, then schedules the content cluster after the measurement baseline is reliable. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure modes
+Sequencing by publish volume, treating all dependencies as equal, starting high-effort authority campaigns before the offer is clear, and changing several strategic layers at once so the team cannot learn what worked. [Evidence Tier: Tier 3 — Industry observation]
 
-- Order work so foundational fixes unlock measurement and content changes, and avoid stacking multiple uncontrolled changes on the same page set. [Evidence Tier: Tier 3 — Industry observation]
+## Evidence boundary
+Roadmap sequencing is a strategy framework, not a Google ranking formula. Causal Google-system claims remain **Tier 4 — Hypothesis** without stronger evidence. [Evidence Tier: Tier 1 — Officially documented]
 
+## Portfolio handoff
+A strategic sequence should identify the initiative that unlocks another initiative. Record whether the dependency is technical, data-related, editorial, legal, commercial, or capacity-based. This prevents a roadmap from calling every predecessor a “blocker” and helps leadership see where parallel work is safe. [Evidence Tier: Tier 3 — Industry observation]
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-For example, fix indexation problems before judging a content rewrite on affected URLs. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 3 — Industry observation** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+Review the dependency map when a project slips. A delayed content launch may leave research or evidence collection free to continue, while a delayed measurement integration may invalidate downstream experiments. Sequencing should reflect those differences. [Evidence Tier: Tier 3 — Industry observation]

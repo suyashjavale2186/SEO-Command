@@ -4,9 +4,6 @@
 **Source basis:** Ported and filtered from: skills/linkbuilding/references/link-velocity-redflags.md, skills/linkbuilding/references/tactics/citations-directories.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
 
 
-## Ported operating assets
-
-
 - # Link Velocity Red Flags [Evidence Tier: Tier 3 — Industry observation]
 
 
@@ -24,71 +21,26 @@
 
 - - Months 4-6: 8-15 per month as momentum builds. [Evidence Tier: Tier 3 — Industry observation]
 
+## Operating context
 
-- The Month 1 spike is fine because entity stacking is a pattern Google has seen a million times: new legitimate business sets up its profiles. All branded, all low-risk. [Evidence Tier: Tier 3 — Industry observation]
+This reference supports the `authority-analysis` skill when it handles **referring domain quality**. Use the named artifact or decision as the unit of analysis and preserve provenance before acting. [Evidence Tier: Tier 3 — Industry observation]
 
+## Implementation guide
+Use **referring domain quality** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
 
-- **Growth stage:** Favor consistent, legitimate acquisition from relevant sources and let the expected rate emerge from the business, market, campaign capacity, and actual opportunities. A sudden unexplained burst of manufactured links is a risk signal. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Red flags that trigger SpamBrain attention [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## The velocity drop [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## What to do if you get caught [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Tracking without paid tools [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Cross-references [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Use the reference to help the authority analysis skill make defensible decisions about referring domain quality. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose When evaluating referring domain quality, establish the intended outcome, gather direct evidence, compare plausible explanations, and choose a measurable intervention. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
+## Specific example
+On `https://example.com/referring-domain-quality`, a practitioner discovers a concrete **referring domain quality** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
 
 ## Red flags
+Common failure modes for **referring domain quality** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
 
+## Topic-specific operating notes
+Treat **referring domain quality** as the concrete object of analysis within **authority-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant link context, source quality, acquisition patterns, referral evidence, and spam risk signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
+### Concrete operator case
+Imagine a real but hypothetical organization using `authority-analysis/referring-domain-quality` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **referring domain quality**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **referring domain quality**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

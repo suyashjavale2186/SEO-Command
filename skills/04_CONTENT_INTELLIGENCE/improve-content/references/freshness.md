@@ -1,10 +1,6 @@
 # Freshness
 
 
-**Source basis:** Ported and filtered from: skills/improve-content/references/content-freshness.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Technique 12: Content Freshness & Strategic Updates [Evidence Tier: Tier 3 — Industry observation]
@@ -30,71 +26,26 @@
 
 - - Fresh data in an established page can outrank new pages from competitors [Evidence Tier: Tier 3 — Industry observation]
 
+## Operating context
 
-- **Data point:** Third-party content-refresh studies have reported traffic improvements after substantial updates, but results are study-specific and do not establish a universal lift. Validate the effect on the actual page set. [Evidence Tier: Tier 3 — Industry observation]
+This reference supports the `improve-content` skill when it handles **freshness**. Use the named artifact or decision as the unit of analysis and preserve provenance before acting. [Evidence Tier: Tier 3 — Industry observation]
 
+## Control points
+Use **freshness** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
 
-- ## Step-by-Step Process [Evidence Tier: Tier 3 — Industry observation]
+## Production example
+On `https://example.com/freshness`, a practitioner discovers a concrete **freshness** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure signatures
+Common failure modes for **freshness** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
 
-- ### Step 1: Identify Pages to Update [Evidence Tier: Tier 3 — Industry observation]
+## Topic-specific operating notes
+Treat **freshness** as the concrete object of analysis within **improve-content**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant performance-led updates, content decay, evidence gaps, freshness, and preservation of successful intent coverage signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-- 1. Use page-level SEO data and opportunity detection from your SEO data source [Evidence Tier: Tier 3 — Industry observation]
+### Concrete operator case
+Imagine a real but hypothetical organization using `improve-content/freshness` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **freshness**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- - Pages that rank near the visible first-page boundary can be useful optimization candidates when the query fit and business value are strong; use the actual performance distribution rather than a fixed position cutoff. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Pages with declining traffic (were ranking well, now dropping) [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Pages with outdated data (old statistics, discontinued tools, old years) [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Refresh information when the underlying topic, facts, products, prices, rules, or user expectations have changed materially. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose Freshness is context-dependent; an evergreen explanation does not need arbitrary rewording. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **freshness**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

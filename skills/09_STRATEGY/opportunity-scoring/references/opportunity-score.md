@@ -1,64 +1,18 @@
 # Opportunity Score
 
+This reference defines the **portfolio score used to compare SEO opportunities**, not a Google metric. It integrates business relevance with demand, feasibility, information advantage, authority fit, conversion potential, and resource cost. [Evidence Tier: Tier 3 — Industry observation]
 
-**Purpose.** This reference gives the `opportunity scoring` skill a concrete operating method for **opportunity score**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Core principles
-
-
-- Use the reference to help the opportunity scoring skill make defensible decisions about opportunity score. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
+## Factor definitions
+**Business Value** asks whether the topic reaches an audience the organization can serve commercially. **Demand** represents the best available evidence of search need, using first-party and external sources without pretending vendor volume is exact. **Intent Fit** asks whether the site can satisfy the underlying task. **Ranking Feasibility** evaluates the actual SERP and the site's current position. **Information Advantage** measures what useful evidence the organization can add that competitors cannot easily reproduce. **Authority Fit** considers whether the domain and page role are credible for the subject. **Conversion Potential** links the topic to a meaningful business outcome. **Resource Cost** includes research, production, engineering, review, and maintenance. [Evidence Tier: Tier 3 — Industry observation]
 
 ## Worked example
+A cybersecurity firm compares “what is ransomware” with “ransomware incident-response software.” The first topic has broader apparent demand, but the second has stronger product fit, a clearer buyer task, and a proprietary implementation perspective available from the firm's engineers. The model therefore favors the second opportunity despite the broader reach of the first. The score is a decision aid, not a traffic forecast. [Evidence Tier: Tier 3 — Industry observation]
 
+## Scoring discipline
+Define what each factor means before assigning internal values. Record the evidence behind every factor and avoid letting one easily available metric dominate the model. Re-score when business priorities, SERP composition, or available resources materially change. [Evidence Tier: Tier 3 — Industry observation]
 
-When evaluating opportunity score, establish the intended outcome, gather direct evidence, compare plausible explanations, and choose a measurable intervention. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
+## Failure modes
+Do not equate search volume with opportunity, hide weak assumptions inside one final score, or claim that the formula predicts Google rankings. [Evidence Tier: Tier 4 — Hypothesis]
 
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 4 — Hypothesis** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+## Evidence boundary
+Opportunity Score is an internal prioritization device. Any Google-system causal claim must be labeled **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]

@@ -18,47 +18,26 @@
 
 - Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
 
+## Operating context
 
-## Execution checklist
+This reference supports the `red-team` skill when it handles **causal inference check**. Use the named artifact or decision as the unit of analysis and preserve provenance before acting. [Evidence Tier: Tier 3 — Industry observation]
 
+## Field procedure
+Try to break the strategy before approving it. Challenge competitor comparability, causal assumptions, business-value alignment, user experience, implementation dependencies, evidence tier, and spam/scaled-content risk. Ask what observation would falsify the plan and what alternative explanation deserves testing first. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
+## Concrete case
+A team proposes adding a pricing table because a top-ranking competitor has one. The red team asks whether the competitor is comparable, whether prices are stable, whether users actually need the information, and whether another explanation better accounts for the result. Only the user-utility rationale survives if causal evidence is absent. [Evidence Tier: Tier 3 — Industry observation]
 
+## Failure modes
+Using rank order as causal proof; optimizing traffic while ignoring qualified outcomes; assuming a competitor is comparable because of one keyword; or accepting a tactic because it is popular in SEO communities. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
+## Topic-specific operating notes
+Treat **causal inference check** as the concrete object of analysis within **red-team**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant assumption attacks, counterexamples, causal skepticism, competitor comparability, UX, and business outcomes signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
+### Concrete operator case
+Imagine a real but hypothetical organization using `red-team/causal-inference-check` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **causal inference check**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Use matched comparisons or phased rollouts where practical. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 3 — Industry observation** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **causal inference check**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

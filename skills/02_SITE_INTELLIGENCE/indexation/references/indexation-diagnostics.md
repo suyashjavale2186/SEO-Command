@@ -1,64 +1,22 @@
 # Indexation Diagnostics
 
+This reference is a **focused troubleshooting procedure** for a URL or URL class that is not indexed as expected. It is narrower than the technical audit: start from the observed state and trace the blocking or canonical signals one by one. [Evidence Tier: Tier 1 — Officially documented]
 
-**Purpose.** This reference gives the `indexation` skill a concrete operating method for **indexation diagnostics**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Troubleshooting path
+Confirm the URL returns the intended status, is crawlable, is not explicitly `noindex`, and has a sensible canonical. Check whether another URL better represents the same content and whether internal links and sitemaps reinforce the intended destination. Use Search Console evidence when available. [Evidence Tier: Tier 1 — Officially documented]
 
+If the page is technically eligible, inspect content usefulness, duplication, and whether it is actually the intended canonical resource. Do not invent a “quality threshold” or assume that failure to index proves a hidden penalty. [Evidence Tier: Tier 1 — Officially documented]
 
-## Core principles
+## Concrete scenario
+A help article remains absent from indexed results even though users link to it internally. Inspection finds a stale canonical pointing to an older URL. After correcting the canonical and validating the destination, the team records the change and waits for recrawling rather than adding duplicate copies of the article. [Evidence Tier: Tier 1 — Officially documented]
 
+## Failure modes
+Making multiple SEO changes at once, submitting repeated requests without fixing the signal conflict, blocking the page in robots.txt while expecting indexing, or treating one non-indexed example as proof of a sitewide rule. [Evidence Tier: Tier 1 — Officially documented]
 
-- Troubleshoot indexation using a layered model: discovery → crawl → eligibility → canonical → representation. [Evidence Tier: Tier 1 — Officially documented]
+## Evidence boundary
+The diagnostic can identify observable technical conflicts; it cannot expose undocumented ranking mechanisms. Such claims remain **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]
 
+## Diagnostic record
+Capture the exact URL Inspection or indexation evidence, the status code, robots state, canonical target, sitemap presence, internal-link context, and any alternative URL that could be selected as the representative page. This record turns “not indexed” into a traceable technical case. [Evidence Tier: Tier 1 — Officially documented]
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Use Search Console URL Inspection for a specific page and the Page Indexing report for site-level patterns rather than inferring index state from a simple site query. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 1 — Officially documented** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+When several signals disagree, resolve the conflict at the source rather than adding another signal. A canonical tag pointing one way, a sitemap another way, and internal links a third way create ambiguity that should be simplified before the team assumes a content-quality problem. [Evidence Tier: Tier 3 — Industry observation]

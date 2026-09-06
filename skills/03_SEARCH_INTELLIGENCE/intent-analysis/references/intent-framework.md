@@ -1,112 +1,20 @@
-# Intent Framework
+# Search Intent Framework
 
+This reference classifies the **task a searcher appears to be trying to complete**. Intent is an inference from query language, result formats, audience context, and business context—not a permanent label supplied by Google. [Evidence Tier: Tier 3 — Industry observation]
 
-**Source basis:** Ported and filtered from: skills/keyword-deep-dive/references/intent-matching.md, skills/content-brief/references/intent-matching.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
+## Intent dimensions
+Classify the dominant task as learning, doing, evaluating, finding a specific destination, or completing a local/transactional action. Then add modifiers that change the job: pricing, alternatives, reviews, templates, location, compatibility, urgency, audience, or implementation context. Mixed intent should be preserved when the evidence supports more than one task. [Evidence Tier: Tier 3 — Industry observation]
 
+Use the live SERP as an observed intent signal. If relevant results cluster around comparison tables, the query has an evaluative component; if they cluster around procedural guides, the task is likely procedural. Do not use one competitor's page as proof of intent. [Evidence Tier: Tier 3 — Industry observation]
 
-## Ported operating assets
+## Concrete example
+For “best payroll software pricing,” a pure definition page misses the commercial task. The better intent statement is: “Compare payroll options while validating price and fit.” That statement determines what evidence the page needs and whether a comparison page or dedicated pricing page is the better destination. [Evidence Tier: Tier 3 — Industry observation]
 
+## Conflict test
+When SERP results split between informational guides and product pages, record both intents and identify the task the target URL is equipped to serve. If neither dominates clearly, avoid forcing a false single label; create a content or architecture decision that preserves the distinction. [Evidence Tier: Tier 3 — Industry observation]
 
-- # Technique 10: Search Intent Matching [Evidence Tier: Tier 3 — Industry observation]
+## Failure modes
+Do not call every “what is” query purely informational, ignore modifiers that reveal buying intent, or infer intent from search volume alone. Do not promise that one intent label predicts rankings. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- ## What It Is [Evidence Tier: Tier 3 — Industry observation]
-
-
-- Writing content that matches the exact type of information a user expects when they search a keyword -- not just covering the topic, but delivering it in the FORMAT and DEPTH the user needs at that moment in their journey. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Why It Works [Evidence Tier: Tier 3 — Industry observation]
-
-
-> Legacy source mentioned proprietary ranking mechanisms; in Elite, treat any causal interpretation as Tier 4 — Hypothesis unless Google documents it. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Intent mismatch can cause material performance losses because a page that does not satisfy the task represented by the SERP is a poor fit for the query. The exact size of any change is context-dependent and should be measured rather than assumed. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## The Four Intent Types [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### 1. Informational ("I want to learn") [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **Keywords**: "how to...", "what is...", "why does...", "guide to..." [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **User expectation**: Comprehensive answer, step-by-step instructions, explanations [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **Format**: Long-form articles, how-to guides, explainers, tutorials [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **Opening section**: Must signal "this page teaches you [exact topic]" [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **SEO signals**: HowTo schema, FAQ schema, table of contents [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### 2. Commercial Investigation ("I want to compare") [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **Keywords**: "best...", "vs...", "review...", "top 10...", "comparison..." [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **User expectation**: Hands-on comparison, recommendations, honest assessment [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Step-by-Step Process [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Tips [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Common Mistakes [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Use layered intent: task, content format, audience, urgency, and commercial relationship. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose A query can be informational in wording but strongly transactional in context when it asks for a specific product, plan, or provider. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+## Evidence boundary
+Intent categories are analytical constructs. Any claim about a hidden Google intent classifier is **Tier 4 — Hypothesis** unless documented. [Evidence Tier: Tier 1 — Officially documented]

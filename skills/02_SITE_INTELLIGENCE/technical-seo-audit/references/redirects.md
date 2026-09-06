@@ -1,64 +1,23 @@
 # Redirects
 
+Use this reference to audit whether old URLs lead users and crawlers to the **correct successor resource**. The key concern is continuity of user intent, not a target count of redirects. [Evidence Tier: Tier 1 — Officially documented]
 
-**Purpose.** This reference gives the `technical seo audit` skill a concrete operating method for **redirects**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Audit method
+Map source URL → redirect behavior → final URL. Distinguish direct redirects, chains, loops, wrong-topic destinations, and missing mappings. For migrations, keep a source-to-target table and test important legacy URLs before launch. Then update internal links, sitemaps, feeds, and references so the site points directly to the intended destination. [Evidence Tier: Tier 1 — Officially documented]
 
+## Concrete example
+A documentation migration sends `/docs/install-old` to `/docs/v2`, which then redirects to `/products/platform`. The final product page is not the true successor to the installation guide. The correct fix is a direct mapping to the new installation page, followed by validation of internal links. [Evidence Tier: Tier 1 — Officially documented]
 
-## Core principles
+## Decision cues
+Use a redirect when a page has a clear replacement or a deliberate URL change. Do not redirect unrelated pages merely to avoid a 404, and do not use a homepage as a universal destination. [Evidence Tier: Tier 1 — Officially documented]
 
+## Failure modes
+Redirect loops, stacked migration chains, irrelevant destinations, forgotten old URLs, and source maps that disappear before production verification are common operational risks. [Evidence Tier: Tier 1 — Officially documented]
 
-- Evaluate redirect chains, loops, irrelevant destinations, and migration mappings with an emphasis on preserving user intent and URL continuity. [Evidence Tier: Tier 1 — Officially documented]
+## Evidence boundary
+Redirect behavior is documented; its contribution to any undisclosed ranking calculation is not. Any such explanation is **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]
 
+## Audit handoff
+For a redirect review, save the old URL, response chain, final status, destination relevance, and any internal links still pointing at the old address. This makes the issue actionable for engineering and distinguishes a deliberate redirect from an accidental chain. [Evidence Tier: Tier 1 — Officially documented]
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-A legacy article consolidated into a directly relevant replacement is a valid redirect candidate; sending unrelated URLs to the home page is not an equivalent substitute. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 1 — Officially documented** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+During migration work, group redirects by template or business reason only after verifying that the mappings are genuinely equivalent. A rule that is safe for one legacy path can misroute another path with a different user task, so sampled validation must reflect the actual URL classes present on the site. [Evidence Tier: Tier 3 — Industry observation]

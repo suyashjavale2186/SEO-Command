@@ -1,64 +1,19 @@
-# Indexation
+# Indexation in a Technical Audit
 
+This reference gives the technical auditor a **site-level indexation diagnosis**. It focuses on whether important URLs are eligible for indexing and whether the site's signals make the intended canonical content clear. [Evidence Tier: Tier 1 — Officially documented]
 
-**Purpose.** This reference gives the `technical seo audit` skill a concrete operating method for **indexation**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Audit sequence
+Inventory important URL classes, then inspect indexability controls such as `noindex`, canonical tags, redirects, status codes, robots rules, and sitemap inclusion. Compare intended indexation with observed Search Console states where available. [Evidence Tier: Tier 1 — Officially documented]
 
+Pay special attention to accidental exclusion: important templates with a broad `noindex`, canonical tags pointing to unrelated URLs, redirected sitemap entries, faceted URLs creating unnecessary variants, and soft-404-like pages that look technically successful but provide little standalone value. [Evidence Tier: Tier 1 — Officially documented]
 
-## Core principles
+Do not treat sitemap inclusion as proof that Google indexed a URL. Sitemaps are a discovery signal; the canonical and indexation decisions are determined separately by Google's systems. [Evidence Tier: Tier 1 — Officially documented]
 
+## Concrete scenario
+An e-commerce site submits `/products/widget-blue` in the sitemap, but its canonical points to `/products/widget` while a template also emits `noindex` on filtered variants. The audit traces the signal chain and determines whether the intended canonical should be the blue variant or the parent product before proposing code changes. [Evidence Tier: Tier 1 — Officially documented]
 
-- Separate discovery, crawling, indexing eligibility, canonical selection, and search appearance so troubleshooting targets the right layer. [Evidence Tier: Tier 1 — Officially documented]
+## Failure modes
+Equating “in sitemap” with “indexed,” deleting URLs before checking demand, using robots.txt as a substitute for noindex, and relying on a single URL Inspection result as proof of sitewide behavior. [Evidence Tier: Tier 1 — Officially documented]
 
-
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-A URL can be crawlable but not indexed, indexed but not selected as canonical, or indexed yet rarely surfaced; treat those states differently. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 1 — Officially documented** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+## Evidence boundary
+Indexation behavior is documented through Search Central and first-party observations where available. Any claim about a hidden cause beyond the observable signals is a **Tier 4 — Hypothesis**. [Evidence Tier: Tier 1 — Officially documented]

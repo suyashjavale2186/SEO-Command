@@ -1,10 +1,6 @@
 # Performance-Driven Updates
 
 
-**Source basis:** Ported and filtered from: skills/improve-content/references/writing-pipeline.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Technique 15: Writing Pipeline Architecture [Evidence Tier: Tier 3 — Industry observation]
@@ -33,68 +29,26 @@
 
 - - Quality gates prevent bad content from being output [Evidence Tier: Tier 3 — Industry observation]
 
+## Operating context
 
-- Comparisons between human-authored and AI-assisted content vary by study design, audience, and publishing context, so do not use a single multiplier as a planning rule. The actionable requirement is to improve evidence, specificity, usefulness, and editorial judgment. [Evidence Tier: Tier 3 — Industry observation]
+This reference supports the `improve-content` skill when it handles **performance driven updates**. Use the named artifact or decision as the unit of analysis and preserve provenance before acting. [Evidence Tier: Tier 3 — Industry observation]
 
+## Evidence map
+Choose the update action from evidence: refresh when facts are stale but intent and page role remain sound; rewrite when the page no longer satisfies the task; consolidate when multiple URLs overlap materially; redirect when a replacement page truly inherits the intent; delete when the asset has no defensible user or business role. Use Search Console, analytics, current SERPs, and the edit history together. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-- Single-prompt content generation fails because one prompt can't simultaneously optimize for research depth, writing quality, SEO mechanics, anti-detection, and fact accuracy. Each agent focuses on ONE thing well, and each stage builds on verified output from the previous stage. [Evidence Tier: Tier 3 — Industry observation]
+## Practical case
+A comparison page has accurate core content but outdated product pricing and integrations. Refresh is appropriate. A second page covers the same comparison intent with largely overlapping copy and no distinct business role; consolidation is a separate action supported by cannibalization evidence. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
+## Disqualifiers
+Changing publication dates without substance; redirecting to a generic category; consolidating solely because two URLs share a keyword; or deleting a page before checking links, conversions, and replacement intent. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-- ## The 7-Agent Model [Evidence Tier: Tier 3 — Industry observation]
+## Topic-specific operating notes
+Treat **performance driven updates** as the concrete object of analysis within **improve-content**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant performance-led updates, content decay, evidence gaps, freshness, and preservation of successful intent coverage signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-- The pipeline uses seven specialized agents, each with a distinct role and optimal configuration: [Evidence Tier: Tier 3 — Industry observation]
+### Concrete operator case
+Imagine a real but hypothetical organization using `improve-content/performance-driven-updates` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **performance driven updates**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- ## Implementation Architecture [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Article (markdown) [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Meta elements [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Quality scorecard [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Use Search Console and analytics to identify what changed, then connect the pattern to a plausible content or SERP cause before editing. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose A traffic decline caused by a market-wide seasonality shift is not the same as a page losing relevance. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **performance driven updates**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

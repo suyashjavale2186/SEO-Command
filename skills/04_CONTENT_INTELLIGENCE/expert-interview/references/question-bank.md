@@ -1,69 +1,48 @@
 # Expert Interview Question Bank
 
-**Purpose:** Extract first-party knowledge that generic web research cannot supply. The bank is retained from the original SuperSEO system and tightened for truthful provenance. [Evidence Tier: Tier 3 — Industry observation]
+Use this bank to collect first-party material for content briefs, Information Gain analysis, and evidence-first writing. Select prompts that surface concrete situations, mistakes, tradeoffs, boundaries, or artifacts; prompts are not evidence until the interviewee answers them. [Evidence Tier: Tier 3 — Industry observation]
 
-## Universal prompts
-- What do most people get wrong about this topic?
-- Can you give me a specific example—a client, project, test, or result?
-- What surprised you when you actually did this?
-- Who should NOT follow this advice, and why?
+## Core questions
+
+1. “What do most people get wrong about [topic]?” [Evidence Tier: Tier 3 — Industry observation]
+2. “Can you give me a specific example — a client, a project, a number?” [Evidence Tier: Tier 3 — Industry observation]
+3. “What surprised you when you actually did this?” [Evidence Tier: Tier 3 — Industry observation]
+4. “Who should NOT follow this advice, and why?” [Evidence Tier: Tier 3 — Industry observation]
 
 ## Technical / how-to
-- "What error does almost everyone hit first?"
-- "What step do beginners always skip?"
-- "What did you waste the most time on when you first did this?"
-- "What's the edge case that breaks most tutorials?"
-- "Which assumption in the official docs is wrong or outdated?"
-- "What's the fastest way to know if you're doing it wrong?"
-- "What's the thing you wish someone had told you before starting?"
-- "How do you know you're done — not just done with the first pass, but actually done?"
-- "What breaks at scale that doesn't break in a toy example?"
-- "Which step in the standard tutorial is a waste of time?"
-- "What's the debug command you reach for when nothing works?"
+
+- “What error does almost everyone hit first?” [Evidence Tier: Tier 3 — Industry observation]
+- “What step do beginners always skip?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the edge case that breaks most tutorials?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which assumption in the official docs is wrong or outdated?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the fastest way to know if you’re doing it wrong?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which tool from the tutorial is actually optional?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the thing you wish someone had told you before starting?” [Evidence Tier: Tier 3 — Industry observation]
+- “What breaks at scale that doesn’t break in a toy example?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which step in the standard tutorial is a waste of time?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the debug command you reach for when nothing works?” [Evidence Tier: Tier 3 — Industry observation]
 
 ## Comparison / review
-- "Which one would you actually recommend to a friend, and why?" (the real answer, not the official one)
-- "Where do reviewers always get X vs Y wrong?"
-- "What's the thing about X that the marketing hides?"
-- "Which is worse than it looks? Which is better than it looks?"
-- "When would you recommend neither of these?"
-- "Who is the wrong person to ask about this comparison?"
-- "What breaks your opinion — what would have to be true for you to switch?"
-- "What's the gotcha in the pricing?"
-- "What's a better comparison nobody is making?"
-- "Which one did you quietly migrate away from, and why?"
 
-## Thought leadership
-- "What's the contrarian take you've been holding back?"
-- "What's the conventional wisdom you used to believe that you no longer do?"
-- "What's everyone in your field wrong about right now?"
-- "Where do you think this is heading in 2 years?"
-- "What would have to happen for your opinion to change?"
-- "What's the unpopular prediction you're willing to put a number on?"
-- "What's the taboo question nobody will answer directly?"
-- "What are you actively wrong about right now, and how do you know?"
-- "What would you do differently if you were starting today?"
-- "What's the thing you say to clients that you'd never say on LinkedIn?"
+- “Which one would you actually recommend to a friend, and why?” [Evidence Tier: Tier 3 — Industry observation]
+- “Where do reviewers always get X vs Y wrong?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the thing about X that the marketing hides?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which is worse than it looks? Which is better than it looks?” [Evidence Tier: Tier 3 — Industry observation]
+- “When would you recommend neither of these?” [Evidence Tier: Tier 3 — Industry observation]
+- “Who is the wrong person to ask about this comparison?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which feature sounds important but doesn’t matter in practice?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the gotcha in the pricing?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s a better comparison nobody is making?” [Evidence Tier: Tier 3 — Industry observation]
+- “Which one did you quietly migrate away from, and why?” [Evidence Tier: Tier 3 — Industry observation]
 
-## Case study / results
-- "Start with the result number — what did it actually change?"
-- "What did you try first that didn't work?"
-- "At what point did you think it wouldn't work?"
-- "What was the unexpected thing you learned?"
-- "Who was the one person whose input mattered most?"
-- "What did you spend the most money on? The most time on?"
-- "What would you do differently next time?"
-- "Can you put a cost on the mistake?"
-- "What's the thing you can't publish publicly but it matters?"
-- "What was the moment you knew it was working?"
-- "What did the client actually say when you showed them the result?"
-- **One contrarian-seeking question.** Always. This is what gives the final article an angle. The core question #1 ("what do most people get wrong about X?") is the safe default. If the user is opinionated, the thought-leadership bank has sharper versions.
-- **One specificity-forcing question.** Always. The core question #2 ("specific example, client, number") is the safe default. For case study topics, start with "what did it actually change?". For how-to topics, "what did you waste the most time on?" gets a specific story faster.
-- **One failure or scope question.** Always. Either "who should NOT follow this advice" (good for opinion and comparison content) or "what breaks at scale" (good for technical content) or "at what point did you think it wouldn't work" (good for case studies).
-- **Optional fourth question.** Only if the first three answers were short. A fourth question is a cost, not a benefit, if answers have been flowing. Stop when you have enough.
+## Interview follow-up
 
-## Interview method
-Ask one question at a time and adapt based on the answer. Prioritize specificity, context, trade-offs, failures, surprises, scope limits, and concrete evidence. [Evidence Tier: Tier 4 — Hypothesis]
-When an answer is vague, rescue it with a specific follow-up: ask for the most recent situation, approximate magnitude, named context, the exact step, or what changed. These prompts are editorial techniques, not claims about a search engine. [Evidence Tier: Tier 3 — Industry observation]
-Use a small purposeful set of questions rather than exhausting the bank. Choose one contrarian-seeking question, one specificity-forcing question, and one failure/scope question; add another only when the existing answers remain thin. [Evidence Tier: Tier 4 — Hypothesis]
-Never fill an unanswered question with plausible text. Unsupported experience, results, or credentials must never be invented. [Evidence Tier: Tier 1 — Officially documented]
+When an answer is vague, move from the broad claim to a recent situation, then ask for the artifact, measurement, or decision behind it. Useful probes include “Can you put a number on that?”, “When was the last time that happened?”, “Who else was involved?”, and “What would you do differently?” [Evidence Tier: Tier 3 — Industry observation]
+
+Use a funnel rather than a questionnaire dump. Capture the expert’s exact meaning, publication permission, confidentiality limits, and facts requiring external verification. Never turn an opinion into research evidence and never manufacture first-person experience when the interview does not supply it. [Evidence Tier: Tier 1 — Officially documented]
+
+## Worked situation
+On `https://example.com/question-bank`, a practitioner discovers a concrete **question bank** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
+
+## What breaks the tactic
+Common failure modes for **question bank** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]

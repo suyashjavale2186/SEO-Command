@@ -1,10 +1,6 @@
 # Intent Conflicts
 
 
-**Source basis:** Ported and filtered from: skills/content-brief/references/intent-matching.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Technique 10: Search Intent Matching [Evidence Tier: Tier 3 — Industry observation]
@@ -33,74 +29,22 @@
 
 - - **Keywords**: "how to...", "what is...", "why does...", "guide to..." [Evidence Tier: Tier 3 — Industry observation]
 
+## Operator notes
+State the user task in plain language before naming the intent category. Use modifiers, result formats, question wording, page types, and business context as evidence, then note mixed-intent cases explicitly. A query can have overlapping informational and commercial purposes; the content plan should decide which task the target page can satisfy best rather than forcing a single label. [Evidence Tier: Tier 3 — Industry observation]
 
-- - **User expectation**: Comprehensive answer, step-by-step instructions, explanations [Evidence Tier: Tier 3 — Industry observation]
+## Applied scenario
+The query “best project management software pricing” contains a selection task plus a price-validation task. A page that only explains project-management concepts misses the commercial decision. The analysis recommends combining concise pricing context with comparison criteria or routing the pricing subtask to a dedicated page if the site architecture supports it. [Evidence Tier: Tier 3 — Industry observation]
 
+## Stop conditions
+Calling every “what is” query informational; ignoring modifiers like price, alternatives, review, near me, or template; treating one competitor’s page type as proof of intent; or forcing mixed intent into a single generic article. [Evidence Tier: Tier 3 — Industry observation]
 
-- - **Format**: Long-form articles, how-to guides, explainers, tutorials [Evidence Tier: Tier 3 — Industry observation]
+## Topic-specific operating notes
+Treat **intent conflicts** as the concrete object of analysis within **intent-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant the task behind a query, mixed intent, audience stage, result-type evidence, and content-fit decisions signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-- - **Opening section**: Must signal "this page teaches you [exact topic]" [Evidence Tier: Tier 3 — Industry observation]
+### Concrete operator case
+Imagine a real but hypothetical organization using `intent-analysis/intent-conflicts` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **intent conflicts**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- - **SEO signals**: HowTo schema, FAQ schema, table of contents [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### 2. Commercial Investigation ("I want to compare") [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **Keywords**: "best...", "vs...", "review...", "top 10...", "comparison..." [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - **User expectation**: Hands-on comparison, recommendations, honest assessment [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Step-by-Step Process [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Tips [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Common Mistakes [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Identify when a single page tries to satisfy incompatible tasks and decide whether to separate or sequence them. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose Do not split merely because a page has multiple sections; split when the user journeys meaningfully diverge and one page becomes harder to use. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **intent conflicts**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

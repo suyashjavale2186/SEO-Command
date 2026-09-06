@@ -1,80 +1,128 @@
-# SuperSEO Elite v2 — Depth & Compliance Audit
+# SuperSEO Elite v3 — Audit Report
 
-Audit date: 2026-09-06
+Generated from the final working tree at `/mnt/data/v3work2`. Architecture and `SKILL.md` files are preserved from the approved rebuild.
 
-## Executive result
+## Summary
 
-- Reference files audited: **224**
-- Reference files below 300 words before this pass: **221**
-- Reference files above 800 words before this pass: **1**
-- Reference files outside 300–800 words after this pass: **0**
-- Minimum final reference depth: **539 words**
-- Maximum final reference depth: **800 words**
-- Total reference words before: **8,656**
-- Total reference words after: **137,961**
-- Net increase: **129,305 words**
+- Skills: **44**
+- Reference files: **181**
+- Canonical governance contracts: **1**
+- Reference word range: **301–800**
+- Reference word average: **597.4**
+- Total reference words: **108,138**
+- `SKILL.md` files changed during this pass: **0**
 
-The re-verification corrected the earlier stub count: the actual approved Elite archive contained **221** reference files under 300 words, not 155. All 221 were expanded; the single pre-existing overlong reference was also normalized into the required range.
+## Per-skill reference inventory
 
-## Per-skill reference depth
+| Skill | Reference files | Word counts |
+|---|---:|---|
+| `skills/01_BUSINESS_INTELLIGENCE/audience-model` | 3 | audience-research-framework.md: 652; persona-evidence.md: 650; searcher-intent-model.md: 661 |
+| `skills/01_BUSINESS_INTELLIGENCE/business-context` | 3 | business-context-framework.md: 654; business-data-schema.md: 654; business-goals.md: 646 |
+| `skills/01_BUSINESS_INTELLIGENCE/conversion-model` | 3 | business-value-mapping.md: 383; conversion-taxonomy.md: 619; funnel-model.md: 651 |
+| `skills/02_SITE_INTELLIGENCE/cannibalization` | 4 | cannibalization-detection.md: 649; canonical-vs-redirect.md: 646; intent-overlap.md: 649; merge-vs-differentiate.md: 659 |
+| `skills/02_SITE_INTELLIGENCE/indexation` | 4 | duplicate-url-patterns.md: 648; indexation-diagnostics.md: 381; search-console-indexation.md: 652; sitemap-analysis.md: 642 |
+| `skills/02_SITE_INTELLIGENCE/internal-links` | 4 | anchor-text.md: 647; contextual-linking.md: 618; internal-link-graph.md: 636; orphan-page-recovery.md: 647 |
+| `skills/02_SITE_INTELLIGENCE/site-graph` | 4 | entity-relationship-model.md: 654; graph-diagnostics.md: 643; hub-spoke-architecture.md: 650; site-graph-schema.md: 655 |
+| `skills/02_SITE_INTELLIGENCE/technical-seo-audit` | 8 | canonicalization.md: 645; core-web-vitals.md: 646; crawlability.md: 638; indexation.md: 301; international-seo.md: 630; javascript-rendering.md: 638; migration-seo.md: 640; redirects.md: 367 |
+| `skills/03_SEARCH_INTELLIGENCE/competitor-analysis` | 4 | authority-comparison.md: 643; competitor-comparability.md: 318; competitor-selection.md: 402; content-gap-analysis.md: 631 |
+| `skills/03_SEARCH_INTELLIGENCE/generative-search` | 4 | ai-overviews-ai-mode.md: 636; citation-analysis.md: 630; entity-visibility.md: 416; generative-search-measurement.md: 630 |
+| `skills/03_SEARCH_INTELLIGENCE/intent-analysis` | 4 | intent-conflicts.md: 654; intent-framework.md: 334; query-stage-model.md: 654; serp-intent-signals.md: 659 |
+| `skills/03_SEARCH_INTELLIGENCE/keyword-opportunity` | 4 | demand-evidence.md: 628; keyword-data-limitations.md: 645; opportunity-model.md: 308; serp-feasibility.md: 648 |
+| `skills/03_SEARCH_INTELLIGENCE/serp-analysis` | 5 | aio-vs-organic.md: 626; query-format-matching.md: 366; serp-feature-recognition.md: 643; serp-research.md: 641; snippet-format-analysis.md: 651 |
+| `skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization` | 4 | featured-snippets.md: 636; format-matching.md: 355; people-also-ask.md: 672; rich-result-formats.md: 655 |
+| `skills/04_CONTENT_INTELLIGENCE/content-brief` | 5 | content-types.md: 606; human-input.md: 654; information-gain.md: 647; intent-matching.md: 307; serp-driven-briefing.md: 642 |
+| `skills/04_CONTENT_INTELLIGENCE/eeat` | 5 | authority.md: 578; eeat-verification-rubric.md: 613; experience.md: 610; expertise.md: 641; trust.md: 628 |
+| `skills/04_CONTENT_INTELLIGENCE/expert-interview` | 6 | eeat-signal-embedding.md: 608; human-input-framework.md: 800; information-gain-writing.md: 624; knowledge-doc-template.md: 653; question-bank.md: 686; voice-injection-playbook.md: 669 |
+| `skills/04_CONTENT_INTELLIGENCE/improve-content` | 5 | content-decay-signals.md: 379; evidence-first-editing.md: 664; freshness.md: 651; performance-driven-updates.md: 660; quality-scoring.md: 330 |
+| `skills/04_CONTENT_INTELLIGENCE/information-gain` | 4 | entity-relationship-analysis.md: 645; information-advantage-score.md: 632; missing-subtopics.md: 648; original-evidence.md: 638 |
+| `skills/04_CONTENT_INTELLIGENCE/write-content` | 8 | anti-slop-ruleset.md: 658; content-types.md: 560; evidence-first-writing.md: 654; fact-checking.md: 616; quality-scoring.md: 393; real-thinking-originality.md: 660; serp-driven-writing.md: 642; structured-data.md: 640 |
+| `skills/05_AUTHORITY/authority-analysis` | 4 | authority-evidence.md: 569; backlink-evaluation.md: 636; referring-domain-quality.md: 674; spam-risk.md: 378 |
+| `skills/05_AUTHORITY/digital-pr` | 4 | campaign-risk.md: 626; digital-pr-framework.md: 641; expert-commentary.md: 626; newsworthiness.md: 629 |
+| `skills/05_AUTHORITY/link-opportunities` | 5 | competitor-link-gap.md: 420; guest-contributions.md: 642; link-safety.md: 655; partnerships.md: 637; resource-pages.md: 640 |
+| `skills/06_EXECUTION/content-updates` | 6 | consolidate.md: 638; delete.md: 640; redirect.md: 301; refresh.md: 636; rewrite.md: 629; update-decision-tree.md: 656 |
+| `skills/06_EXECUTION/internal-link-actions` | 3 | hub-strengthening.md: 646; link-action-types.md: 642; orphan-recovery.md: 648 |
+| `skills/06_EXECUTION/publishing-plan` | 3 | dependency-management.md: 646; launch-checklist.md: 647; publishing-sequencing.md: 351 |
+| `skills/06_EXECUTION/technical-fixes` | 3 | implementation-checklist.md: 644; technical-action-spec.md: 652; validation.md: 635 |
+| `skills/07_MEASUREMENT/analytics-analysis` | 4 | attribution-limitations.md: 652; engagement.md: 642; landing-page-analysis.md: 382; organic-behavior.md: 646 |
+| `skills/07_MEASUREMENT/content-decay` | 4 | baseline-comparison.md: 625; decay-classification.md: 624; decay-signals.md: 411; recovery-measurement.md: 649 |
+| `skills/07_MEASUREMENT/conversions` | 3 | assisted-conversions.md: 619; conversion-metrics.md: 613; revenue-attribution.md: 646 |
+| `skills/07_MEASUREMENT/generative-search-visibility` | 4 | citation-tracking.md: 649; entity-association.md: 386; measurement-limitations.md: 655; mention-tracking.md: 653 |
+| `skills/07_MEASUREMENT/search-console-analysis` | 4 | generative-search-reporting.md: 380; page-analysis.md: 405; query-analysis.md: 648; search-console-metrics.md: 638 |
+| `skills/08_EXPERIMENTATION/hypothesis` | 3 | causal-vs-correlational.md: 640; experiment-design.md: 639; hypothesis-framework.md: 636 |
+| `skills/08_EXPERIMENTATION/learning` | 3 | experiment-learning-log.md: 638; site-specific-playbook.md: 621; strategy-update.md: 648 |
+| `skills/08_EXPERIMENTATION/measurement` | 3 | baseline-methodology.md: 624; significance-and-confidence.md: 656; success-metrics.md: 643 |
+| `skills/08_EXPERIMENTATION/seo-experiment` | 4 | content-tests.md: 629; experiment-record.md: 633; internal-link-tests.md: 643; title-tests.md: 650 |
+| `skills/09_STRATEGY/opportunity-scoring` | 4 | business-value.md: 379; opportunity-score.md: 333; ranking-feasibility.md: 649; resource-cost.md: 649 |
+| `skills/09_STRATEGY/prioritization` | 3 | impact-effort.md: 649; now-next-later-ignore.md: 655; priority-score.md: 630 |
+| `skills/09_STRATEGY/seo-roadmap` | 4 | dependencies.md: 641; quarterly-planning.md: 647; roadmap-framework.md: 616; sequencing.md: 348 |
+| `skills/10_GOVERNANCE/evidence-engine` | 5 | claim-verification.md: 652; confidence-calibration.md: 641; evidence-tiers.md: 646; governance-contract.md: 408; source-hierarchy.md: 647 |
+| `skills/10_GOVERNANCE/fact-checking` | 3 | factual-claim-types.md: 616; source-verification.md: 646; unsupported-claim-handling.md: 654 |
+| `skills/10_GOVERNANCE/red-team` | 4 | causal-inference-check.md: 636; competitor-comparability.md: 611; strategy-challenge.md: 639; user-experience-risk.md: 631 |
+| `skills/10_GOVERNANCE/risk-detection` | 4 | implementation-risk.md: 625; scaled-content-risk.md: 634; seo-risk-taxonomy.md: 627; spam-risk.md: 393 |
+| `skills/10_GOVERNANCE/seo-myth-detection` | 3 | google-claims-vs-hypotheses.md: 659; hard-rule-audit.md: 656; myth-classification.md: 646 |
 
-| Skill | Ref count | Word counts | Under 300 |
-|---|---:|---|---:|
-| `skills/01_BUSINESS_INTELLIGENCE/audience-model` | 4 | audience-research-framework.md:558, governance-contract.md:559, persona-evidence.md:556, searcher-intent-model.md:563 | NO |
-| `skills/01_BUSINESS_INTELLIGENCE/business-context` | 4 | business-context-framework.md:557, business-data-schema.md:552, business-goals.md:554, governance-contract.md:559 | NO |
-| `skills/01_BUSINESS_INTELLIGENCE/conversion-model` | 4 | business-value-mapping.md:557, conversion-taxonomy.md:558, funnel-model.md:560, governance-contract.md:559 | NO |
-| `skills/02_SITE_INTELLIGENCE/cannibalization` | 5 | cannibalization-detection.md:561, canonical-vs-redirect.md:564, governance-contract.md:558, intent-overlap.md:553, merge-vs-differentiate.md:565 | NO |
-| `skills/02_SITE_INTELLIGENCE/indexation` | 5 | duplicate-url-patterns.md:558, governance-contract.md:558, indexation-diagnostics.md:558, search-console-indexation.md:557, sitemap-analysis.md:556 | NO |
-| `skills/02_SITE_INTELLIGENCE/internal-links` | 5 | anchor-text.md:699, contextual-linking.md:746, governance-contract.md:559, internal-link-graph.md:765, orphan-page-recovery.md:753 | NO |
-| `skills/02_SITE_INTELLIGENCE/site-graph` | 5 | entity-relationship-model.md:726, governance-contract.md:559, graph-diagnostics.md:767, hub-spoke-architecture.md:767, site-graph-schema.md:719 | NO |
-| `skills/02_SITE_INTELLIGENCE/technical-seo-audit` | 9 | canonicalization.md:560, core-web-vitals.md:564, crawlability.md:569, governance-contract.md:560, indexation.md:559, international-seo.md:559, javascript-rendering.md:559, migration-seo.md:560, redirects.md:565 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/competitor-analysis` | 5 | authority-comparison.md:773, competitor-comparability.md:553, competitor-selection.md:765, content-gap-analysis.md:767, governance-contract.md:559 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/generative-search` | 5 | ai-overviews-ai-mode.md:567, citation-analysis.md:702, entity-visibility.md:709, generative-search-measurement.md:559, governance-contract.md:559 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/intent-analysis` | 5 | governance-contract.md:559, intent-conflicts.md:701, intent-framework.md:799, query-stage-model.md:800, serp-intent-signals.md:796 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/keyword-opportunity` | 5 | demand-evidence.md:747, governance-contract.md:559, keyword-data-limitations.md:716, opportunity-model.md:555, serp-feasibility.md:722 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/serp-analysis` | 6 | aio-vs-organic.md:683, governance-contract.md:559, query-format-matching.md:761, serp-feature-recognition.md:667, serp-research.md:659, snippet-format-analysis.md:743 | NO |
-| `skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization` | 5 | featured-snippets.md:742, format-matching.md:740, governance-contract.md:560, people-also-ask.md:763, rich-result-formats.md:770 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/content-brief` | 6 | content-types.md:770, governance-contract.md:559, human-input.md:771, information-gain.md:732, intent-matching.md:795, serp-driven-briefing.md:559 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/eeat` | 6 | authority.md:755, eeat-verification-rubric.md:772, experience.md:761, expertise.md:745, governance-contract.md:558, trust.md:735 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/expert-interview` | 7 | eeat-signal-embedding.md:770, governance-contract.md:559, human-input-framework.md:774, information-gain-writing.md:559, knowledge-doc-template.md:746, question-bank.md:795, voice-injection-playbook.md:721 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/improve-content` | 6 | content-decay-signals.md:793, evidence-first-editing.md:707, freshness.md:791, governance-contract.md:559, performance-driven-updates.md:702, quality-scoring.md:777 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/information-gain` | 5 | entity-relationship-analysis.md:729, governance-contract.md:559, information-advantage-score.md:751, missing-subtopics.md:754, original-evidence.md:717 | NO |
-| `skills/04_CONTENT_INTELLIGENCE/write-content` | 9 | anti-slop-ruleset.md:741, content-types.md:770, evidence-first-writing.md:796, fact-checking.md:785, governance-contract.md:559, quality-scoring.md:777, real-thinking-originality.md:728, serp-driven-writing.md:746, structured-data.md:758 | NO |
-| `skills/05_AUTHORITY/authority-analysis` | 5 | authority-evidence.md:775, backlink-evaluation.md:760, governance-contract.md:559, referring-domain-quality.md:769, spam-risk.md:734 | NO |
-| `skills/05_AUTHORITY/digital-pr` | 5 | campaign-risk.md:553, digital-pr-framework.md:559, expert-commentary.md:555, governance-contract.md:559, newsworthiness.md:551 | NO |
-| `skills/05_AUTHORITY/link-opportunities` | 6 | competitor-link-gap.md:763, governance-contract.md:559, guest-contributions.md:729, link-safety.md:772, partnerships.md:771, resource-pages.md:783 | NO |
-| `skills/06_EXECUTION/content-updates` | 7 | consolidate.md:551, delete.md:551, governance-contract.md:559, redirect.md:551, refresh.md:551, rewrite.md:551, update-decision-tree.md:559 | NO |
-| `skills/06_EXECUTION/internal-link-actions` | 4 | governance-contract.md:560, hub-strengthening.md:557, link-action-types.md:561, orphan-recovery.md:557 | NO |
-| `skills/06_EXECUTION/publishing-plan` | 4 | dependency-management.md:555, governance-contract.md:559, launch-checklist.md:555, publishing-sequencing.md:555 | NO |
-| `skills/06_EXECUTION/technical-fixes` | 4 | governance-contract.md:559, implementation-checklist.md:555, technical-action-spec.md:559, validation.md:551 | NO |
-| `skills/07_MEASUREMENT/analytics-analysis` | 5 | attribution-limitations.md:557, engagement.md:556, governance-contract.md:559, landing-page-analysis.md:564, organic-behavior.md:549 | NO |
-| `skills/07_MEASUREMENT/content-decay` | 5 | baseline-comparison.md:555, decay-classification.md:553, decay-signals.md:548, governance-contract.md:559, recovery-measurement.md:554 | NO |
-| `skills/07_MEASUREMENT/conversions` | 4 | assisted-conversions.md:552, conversion-metrics.md:547, governance-contract.md:558, revenue-attribution.md:551 | NO |
-| `skills/07_MEASUREMENT/generative-search-visibility` | 5 | citation-tracking.md:549, entity-association.md:554, governance-contract.md:560, measurement-limitations.md:552, mention-tracking.md:559 | NO |
-| `skills/07_MEASUREMENT/search-console-analysis` | 5 | generative-search-reporting.md:561, governance-contract.md:560, page-analysis.md:554, query-analysis.md:552, search-console-metrics.md:555 | NO |
-| `skills/08_EXPERIMENTATION/hypothesis` | 4 | causal-vs-correlational.md:559, experiment-design.md:550, governance-contract.md:558, hypothesis-framework.md:551 | NO |
-| `skills/08_EXPERIMENTATION/learning` | 4 | experiment-learning-log.md:548, governance-contract.md:558, site-specific-playbook.md:546, strategy-update.md:546 | NO |
-| `skills/08_EXPERIMENTATION/measurement` | 4 | baseline-methodology.md:549, governance-contract.md:558, significance-and-confidence.md:553, success-metrics.md:553 | NO |
-| `skills/08_EXPERIMENTATION/seo-experiment` | 5 | content-tests.md:549, experiment-record.md:550, governance-contract.md:559, internal-link-tests.md:557, title-tests.md:556 | NO |
-| `skills/09_STRATEGY/opportunity-scoring` | 5 | business-value.md:551, governance-contract.md:559, opportunity-score.md:553, ranking-feasibility.md:556, resource-cost.md:549 | NO |
-| `skills/09_STRATEGY/prioritization` | 4 | governance-contract.md:558, impact-effort.md:547, now-next-later-ignore.md:555, priority-score.md:546 | NO |
-| `skills/09_STRATEGY/seo-roadmap` | 5 | dependencies.md:544, governance-contract.md:559, quarterly-planning.md:552, roadmap-framework.md:539, sequencing.md:555 | NO |
-| `skills/10_GOVERNANCE/evidence-engine` | 5 | claim-verification.md:557, confidence-calibration.md:543, evidence-tiers.md:557, governance-contract.md:559, source-hierarchy.md:550 | NO |
-| `skills/10_GOVERNANCE/fact-checking` | 4 | factual-claim-types.md:550, governance-contract.md:559, source-verification.md:555, unsupported-claim-handling.md:558 | NO |
-| `skills/10_GOVERNANCE/red-team` | 5 | causal-inference-check.md:552, competitor-comparability.md:553, governance-contract.md:559, strategy-challenge.md:564, user-experience-risk.md:554 | NO |
-| `skills/10_GOVERNANCE/risk-detection` | 5 | governance-contract.md:559, implementation-risk.md:552, scaled-content-risk.md:560, seo-risk-taxonomy.md:543, spam-risk.md:549 | NO |
-| `skills/10_GOVERNANCE/seo-myth-detection` | 4 | google-claims-vs-hypotheses.md:558, governance-contract.md:560, hard-rule-audit.md:556, myth-classification.md:562 | NO |
+## Depth check
 
-## Grep-style and structural checks
+- Files below 300 words: **0**
+- Files above 800 words: **0**
+- Any file outside the required 300–800 range: **0**
 
-- Fixed keyword-density rule patterns: **0**.
-- Fixed title/meta character-length rule patterns: **0**.
-- Fixed featured-snippet word-count rule patterns: **0**.
-- Fixed internal-link-ratio rule patterns: **0**.
-- Unlabeled NavBoost/BERT/MUM/DeepRank/pogo-sticking references: **0**.
-- Untagged non-question reference blocks: **0**.
-- Recommendation-producing skills missing the required recommendation block: **0**.
-- Reference files outside 300–800 words: **0**.
-- SKILL.md files changed from approved v1: **0**.
+## Template/residue check
 
-Numeric workflow examples, dates, or contextual examples may still appear; the audit distinguishes those from SEO mandates. Legacy numeric SEO thresholds and quotas were removed or turned into explicitly non-binding heuristics.
+- Broken phrase residue: **0**
+- Placeholder syntax in reference content: **0**
+- Draft-template tokens in reference content: **0**
+- Dummy filler text in reference content: **0**
+- Empty headings: **0**
+- Untagged substantive reference lines: **0**
+
+## SEO governance compliance
+
+- Banned fixed keyword-density rules: **0**
+- Banned fixed title/meta character rules: **0**
+- Banned fixed snippet word-count rules: **0**
+- Banned fixed internal-link-ratio rules: **0**
+- Unhedged Google-internal mechanism claims: **0**
+- Recommendation-block omissions in `SKILL.md`: **0**
+
+## Cross-skill similarity
+
+- All cross-skill reference pairs evaluated: **15,979**
+- Highest cross-skill cosine similarity: **0.699**
+- Seeded 60-pair sample average: **0.196**
+- Seeded 60-pair sample maximum: **0.344**
+- Seeded 60-pair sample P90: **0.278**
+
+The highest-scoring pairs are related concepts rather than copied generic templates. They were inspected for distinct jobs; no pair remained a byte-for-byte or near-template duplicate.
+
+### Highest-scoring cross-skill pairs after the pass
+
+| Similarity | File A | File B |
+|---:|---|---|
+| 0.699 | `skills/04_CONTENT_INTELLIGENCE/content-brief/references/information-gain.md` | `skills/04_CONTENT_INTELLIGENCE/expert-interview/references/information-gain-writing.md` |
+| 0.699 | `skills/07_MEASUREMENT/content-decay/references/baseline-comparison.md` | `skills/08_EXPERIMENTATION/measurement/references/baseline-methodology.md` |
+| 0.695 | `skills/10_GOVERNANCE/red-team/references/user-experience-risk.md` | `skills/10_GOVERNANCE/risk-detection/references/implementation-risk.md` |
+| 0.693 | `skills/05_AUTHORITY/digital-pr/references/campaign-risk.md` | `skills/10_GOVERNANCE/risk-detection/references/implementation-risk.md` |
+| 0.687 | `skills/02_SITE_INTELLIGENCE/cannibalization/references/canonical-vs-redirect.md` | `skills/02_SITE_INTELLIGENCE/technical-seo-audit/references/canonicalization.md` |
+| 0.678 | `skills/01_BUSINESS_INTELLIGENCE/conversion-model/references/conversion-taxonomy.md` | `skills/07_MEASUREMENT/conversions/references/conversion-metrics.md` |
+| 0.675 | `skills/08_EXPERIMENTATION/hypothesis/references/experiment-design.md` | `skills/08_EXPERIMENTATION/seo-experiment/references/experiment-record.md` |
+| 0.646 | `skills/04_CONTENT_INTELLIGENCE/content-brief/references/human-input.md` | `skills/04_CONTENT_INTELLIGENCE/expert-interview/references/human-input-framework.md` |
+| 0.638 | `skills/02_SITE_INTELLIGENCE/cannibalization/references/intent-overlap.md` | `skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/intent-conflicts.md` |
+| 0.632 | `skills/03_SEARCH_INTELLIGENCE/serp-analysis/references/snippet-format-analysis.md` | `skills/03_SEARCH_INTELLIGENCE/serp-feature-optimization/references/featured-snippets.md` |
+| 0.632 | `skills/05_AUTHORITY/digital-pr/references/campaign-risk.md` | `skills/10_GOVERNANCE/red-team/references/user-experience-risk.md` |
+| 0.628 | `skills/10_GOVERNANCE/red-team/references/user-experience-risk.md` | `skills/10_GOVERNANCE/risk-detection/references/seo-risk-taxonomy.md` |
+| 0.627 | `skills/05_AUTHORITY/digital-pr/references/campaign-risk.md` | `skills/10_GOVERNANCE/risk-detection/references/seo-risk-taxonomy.md` |
+| 0.625 | `skills/08_EXPERIMENTATION/learning/references/experiment-learning-log.md` | `skills/08_EXPERIMENTATION/seo-experiment/references/experiment-record.md` |
+| 0.612 | `skills/02_SITE_INTELLIGENCE/cannibalization/references/intent-overlap.md` | `skills/03_SEARCH_INTELLIGENCE/intent-analysis/references/serp-intent-signals.md` |
+| 0.595 | `skills/06_EXECUTION/content-updates/references/update-decision-tree.md` | `skills/08_EXPERIMENTATION/learning/references/strategy-update.md` |
+| 0.595 | `skills/01_BUSINESS_INTELLIGENCE/audience-model/references/searcher-intent-model.md` | `skills/02_SITE_INTELLIGENCE/cannibalization/references/intent-overlap.md` |
+| 0.595 | `skills/04_CONTENT_INTELLIGENCE/write-content/references/fact-checking.md` | `skills/10_GOVERNANCE/fact-checking/references/factual-claim-types.md` |
+| 0.590 | `skills/02_SITE_INTELLIGENCE/internal-links/references/internal-link-graph.md` | `skills/08_EXPERIMENTATION/seo-experiment/references/internal-link-tests.md` |
+| 0.590 | `skills/03_SEARCH_INTELLIGENCE/competitor-analysis/references/content-gap-analysis.md` | `skills/05_AUTHORITY/authority-analysis/references/backlink-evaluation.md` |
+
+## Before/after boilerplate accounting
+
+- Reference words in the actual pre-pass v3 working tree: **88,701**
+- Reference words after this pass: **108,138**
+- Net change: **+19,437 words**
+- The increase is intentional: generic wrappers were replaced with topic-specific operational material; the target is usefulness, not minimum aggregate word count.

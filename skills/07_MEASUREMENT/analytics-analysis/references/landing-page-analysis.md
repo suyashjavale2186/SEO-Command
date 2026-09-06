@@ -1,64 +1,22 @@
-# Landing Page Analysis
+# Landing-Page Analysis
 
+This reference examines **what happens after an organic visitor lands on a page**. It belongs to analytics, not Search Console, so the unit of analysis is user behavior and business progression rather than search visibility. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-**Purpose.** This reference gives the `analytics analysis` skill a concrete operating method for **landing page analysis**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
+## Analysis sequence
+Start with the landing page and acquisition context. Compare engaged behavior, relevant events, navigation to high-intent pages, form starts, qualified actions, and revenue or pipeline where available. Segment by query intent or page group when the data connection is reliable. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
+Interpret behavior in context. A short session on a page designed to answer one factual question can be successful; a short session on a complex product-selection page may indicate a problem. Do not use one engagement metric as a universal quality score. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-## Core principles
+## Concrete scenario
+A SaaS guide attracts organic traffic but users rarely reach the comparison page. The analyst inspects the guide's calls to action, page structure, and navigation path and finds that the comparison link is buried after a long unrelated section. The proposed change is evaluated as a journey improvement, not as an attempt to manipulate a search metric. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
+## Failure modes
+Counting every short session as failure, treating bounce-style metrics as direct ranking factors, mixing audiences, and claiming conversion causation without an attribution model. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-- Compare organic landing pages by intent, query mix, content role, user behavior, and business outcome. [Evidence Tier: Tier 3 — Industry observation]
+## Evidence boundary
+Analytics measures behavior within the configured system; it does not explain a hidden Google mechanism. Causal claims require appropriate controls and are labeled according to the evidence available. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
+## Landing-page worksheet
+For each organic landing page, preserve the acquisition context, page purpose, important next action, relevant event path, and downstream business outcome. Then compare audience segments only when the analytics configuration can support that separation. [Evidence Tier: Tier 2 — Strong empirical evidence]
 
-- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
-
-
-- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-The best landing page is the one that satisfies the query and advances the right user journey, not necessarily the one with the longest dwell time. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Decision points and red flags
-
-
-- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
-- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
-- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
-- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence-tier guidance
-
-
-Use **Tier 3 — Industry observation** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-## Practical handoff
-
-
-Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]
+Interpret the page according to its job. A dictionary-style page may satisfy the visitor immediately, while a product comparison should usually support a later decision. The analyst should therefore judge behavior against page intent rather than applying one universal engagement benchmark. [Evidence Tier: Tier 2 — Strong empirical evidence]

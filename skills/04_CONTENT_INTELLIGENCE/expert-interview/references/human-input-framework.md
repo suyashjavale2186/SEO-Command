@@ -1,106 +1,50 @@
 # Human Input Framework
 
+Human-supplied experience, data, opinions, case details, and process artifacts can give AI-assisted content a defensible first-party layer. The value is evidentiary and editorial; it is not a guarantee of ranking performance. [Evidence Tier: Tier 3 — Industry observation]
 
-**Source basis:** Ported and filtered from: skills/expert-interview/references/human-input-framework.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
+## Collecting useful material
 
+Prioritize business data, documented cases, real implementation details, unexpected outcomes, failures, tradeoffs, and boundaries. Store the claim, situation, artifact or measurement, expert owner, publishing permission, and any uncertainty. A vague “it worked well” answer should trigger a specific follow-up rather than a polished paraphrase. [Evidence Tier: Tier 3 — Industry observation]
 
-## Ported operating assets
+Feed the material into three downstream decisions: the content brief uses it to choose an angle; Information Gain uses it to test whether the page contains information competitors are unlikely to reproduce; and writing uses it for supported examples, quotations, or process details. [Evidence Tier: Tier 4 — Hypothesis]
 
+## Thought leadership prompts
 
-- # Technique 17: Human Input Framework -- The Critical Differentiator [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the contrarian take you’ve been holding back?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s the conventional wisdom you used to believe that you no longer do?” [Evidence Tier: Tier 3 — Industry observation]
+- “What’s everyone in your field wrong about right now?” [Evidence Tier: Tier 3 — Industry observation]
+- “What would have to happen for your opinion to change?” [Evidence Tier: Tier 3 — Industry observation]
+- “What are you actively wrong about right now, and how do you know?” [Evidence Tier: Tier 3 — Industry observation]
+- “What would you do differently if you were starting today?” [Evidence Tier: Tier 3 — Industry observation]
 
+## Case-study prompts
 
-- ## What It Is [Evidence Tier: Tier 3 — Industry observation]
+- “Start with the result number — what did it actually change?” [Evidence Tier: Tier 3 — Industry observation]
+- “What did you try first that didn’t work?” [Evidence Tier: Tier 3 — Industry observation]
+- “At what point did you think it wouldn’t work?” [Evidence Tier: Tier 3 — Industry observation]
+- “What was the unexpected thing you learned?” [Evidence Tier: Tier 3 — Industry observation]
+- “Who was the one person whose input mattered most?” [Evidence Tier: Tier 3 — Industry observation]
+- “What would you do differently next time?” [Evidence Tier: Tier 3 — Industry observation]
+- “Can you put a cost on the mistake?” [Evidence Tier: Tier 3 — Industry observation]
+- “What was the moment you knew it was working?” [Evidence Tier: Tier 3 — Industry observation]
 
+Do not invent a first-person story when the answer is thin. Preserve confidentiality, verify claims that will be presented as external facts, and keep the expert’s uncertainty visible in the finished material. [Evidence Tier: Tier 1 — Officially documented]
 
-- A structured system for collecting and integrating human-provided content into AI-assisted articles -- because AI without human input produces high-quality slop. The human's experiences, data, opinions, and case studies are what transform generic AI content into genuinely valuable, ranking-worthy articles. [Evidence Tier: Tier 3 — Industry observation]
+## Working method
+Use **human input framework** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
 
+## Concrete illustration
+On `https://example.com/human-input-framework`, a practitioner discovers a concrete **human input framework** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
 
-- ## Why It Works [Evidence Tier: Tier 3 — Industry observation]
+## Conditions that invalidate the result
+Common failure modes for **human input framework** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
 
+## Topic-specific operating notes
 
-> Legacy source mentioned proprietary ranking mechanisms; in Elite, treat any causal interpretation as Tier 4 — Hypothesis unless Google documents it. [Evidence Tier: Tier 4 — Hypothesis]
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
+### Concrete operator case
+Imagine a real but hypothetical organization using `expert-interview/human-input-framework` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **human input framework**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-- - First-party data from your business [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Case studies with real clients, real numbers, real timelines [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Genuine opinions and contrarian perspectives based on experience [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Specific tool interactions, error messages, and unexpected results [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - The "what went wrong" stories that build trust [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## The Human Input Hierarchy [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Tier 1: Essential (Content won't rank without these) [Evidence Tier: Tier 3 — Industry observation]
-
-
-- 1. **First-party data**: Numbers from your own business, research, or analysis [Evidence Tier: Tier 3 — Industry observation]
-
-
-- 2. **Case study details**: Client name (or anonymized), problem, solution, specific results [Evidence Tier: Tier 3 — Industry observation]
-
-
-- 3. **Genuine opinion**: What the author actually thinks about the topic, including disagreements with conventional wisdom [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Tier 2: High-Value (Significantly improves quality) [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Tier 3: Enhancing (Adds polish and authenticity) [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Collect specific, high-entropy information from people who actually did the work, then map it into the content brief and evidence map. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose Strong prompts force specificity: what happened, where, when, what failed, what changed, and what would you do differently. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **human input framework**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

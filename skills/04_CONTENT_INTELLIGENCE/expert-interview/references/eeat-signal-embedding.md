@@ -1,10 +1,6 @@
 # E-E-A-T Signal Embedding
 
 
-**Source basis:** Ported and filtered from: skills/expert-interview/references/eeat-signal-embedding.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Technique 04: EEAT Signal Embedding [Evidence Tier: Tier 3 — Industry observation]
@@ -33,71 +29,22 @@
 
 - - **What Google says**: Content created by someone with first-hand experience [Evidence Tier: Tier 3 — Industry observation]
 
+## Triage method
+Assess Experience, Expertise, Authority, and Trust as distinct evidence questions. Experience concerns genuine first-hand involvement; Expertise concerns subject competence; Authority concerns credible standing; Trust concerns transparent sourcing, identity, incentives, and limitations. Never fill a missing pillar with a fabricated biography or invented case. [Evidence Tier: Tier 1 — Officially documented]
 
-- - **What it actually means**: Specific details only someone who DID the thing would know [Evidence Tier: Tier 3 — Industry observation]
+## Scenario walk-through
+A financial guide uses an accountant as the named reviewer but never explains the reviewer’s role or sources the tax claims. The improvement is to disclose authorship and review scope, source regulated claims, and clearly separate practitioner commentary from general information. [Evidence Tier: Tier 1 — Officially documented]
 
+## Escalation triggers
+Generic “expert” bios; unverifiable credentials; anonymous testimonials; invented first-person testing; or treating backlink metrics as proof that an author has subject expertise. [Evidence Tier: Tier 1 — Officially documented]
 
-- - **Signal strength**: Very high since the "first E" was added in December 2022 [Evidence Tier: Tier 3 — Industry observation]
+## Topic-specific operating notes
+Treat **eeat signal embedding** as the concrete object of analysis within **expert-interview**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant first-party knowledge capture, probing questions, artifacts, decisions, trade-offs, and permission signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-- - "I have 15 years of experience in marketing" [Evidence Tier: Tier 3 — Industry observation]
+### Concrete operator case
+Imagine a real but hypothetical organization using `expert-interview/eeat-signal-embedding` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **eeat signal embedding**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- - "As an expert in this field..." [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Author bio listing credentials [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Mentioning specific tool versions, error messages, unexpected results [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Describing what DIDN'T work before finding what did [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Embed authentic expert evidence where it answers the reader's question rather than adding ornamental author boxes. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose Preserve provenance: name the source, date, project context, and limitations when that information can be published. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **eeat signal embedding**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

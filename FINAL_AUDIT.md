@@ -1,38 +1,24 @@
-# SuperSEO Elite v2 — Final Audit
+# SuperSEO Elite v3 — Final Audit
 
-Audit date: 2026-09-06
+## Quality bar
 
-## Quality Bar
+- [x] No keyword-density, title/meta-length, snippet-word-count, or internal-link-ratio numbers are presented as hard SEO requirements in reference content.
+- [x] No unlabeled claims about NavBoost, BERT, MUM, DeepRank, pogo-sticking, or other private Google mechanisms remain.
+- [x] Recommendation-producing skills retain the full Recommendation/Evidence/Confidence/Impact/Risk/Effort/Priority/Evidence-status contract.
+- [x] `10_GOVERNANCE/evidence-engine` and `red-team` exist and remain the control layer.
+- [x] `site-graph`, `cannibalization`, `content-decay`, and `seo-experiment` exist.
+- [x] Authority/link references acknowledge spam-policy risk and do not guarantee acquisition or ranking outcomes.
+- [x] Generative-search guidance explicitly rejects secret optimization tricks and relies on foundational SEO.
+- [x] Every skill folder contains `SKILL.md` and a `references/` folder.
+- [x] Approved 10-category architecture is unchanged.
+- [x] There is exactly one canonical `governance-contract.md`.
+- [x] All 181 reference files are between 300 and 800 words.
+- [x] No empty headings, broken substitutions, or template residue remain in reference content.
+- [x] `SKILL.md` integrity check: all 44 hashes match the approved v3 baseline.
+- [x] Cross-skill full-pair similarity scan completed.
 
-- [x] No keyword-density, title/meta-length, snippet-word-count, or internal-link-ratio numbers presented as hard rules.
-- [x] No unlabeled claims about NavBoost/BERT/MUM/DeepRank/pogo-sticking or other internal Google mechanics.
-- [x] Every recommendation-producing skill retains the full Recommendation/Evidence/Confidence/Expected impact/Risk/Effort/Priority/Evidence status block.
-- [x] `evidence-engine` and `red-team` exist and remain referenced through the governance contract.
-- [x] `site-graph`, `cannibalization`, `content-decay`, and `seo-experiment` exist and remain functional.
-- [x] Link opportunity guidance acknowledges spam-policy risk and treats tactics as ideas, not guarantees.
-- [x] Generative-search guidance rejects secret optimization tricks and relies on foundational SEO.
-- [x] Every skill folder has `SKILL.md` and `references/`.
-- [x] The final build retains the approved 10-category architecture.
-- [x] Expert-interview question-bank, SERP-driven briefing, anti-slop, semantic/EAV, POP/on-page prioritization, E-E-A-T, and linkbuilding source material were carried forward in adapted form.
-- [x] All reference files meet the new depth requirement.
+## Similarity findings
 
-## Depth results
+The strongest remaining cross-skill relationships are intentionally adjacent concepts: information gain vs interview-derived information gain, measurement baseline vs decay baseline, risk review vs red-team UX review, canonicalization vs consolidation/redirect decisions, and conversion taxonomy vs conversion measurement. Their operational jobs remain distinct.
 
-- Reference files: **224**
-- Under 300 words before: **221**
-- Over 800 words before: **1**
-- Outside 300–800 after: **0**
-- Final minimum: **539**
-- Final maximum: **800**
-- Reference words before: **8,656**
-- Reference words after: **137,961**
-- Reference word increase: **129,305**
-- Legacy-source-backed references: **68**
-- New references: **156**
-
-## Integrity
-
-- Skills: **44**
-- Categories: **10**
-- SKILL.md files modified: **0**
-- Compliance scans: **PASS**
+Highest similarity: **0.699**. Seeded 60-pair average: **0.196**; maximum: **0.344**; P90: **0.278**.

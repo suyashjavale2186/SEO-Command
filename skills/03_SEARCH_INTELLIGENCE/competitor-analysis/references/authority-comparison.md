@@ -1,10 +1,6 @@
 # Authority Comparison
 
 
-**Source basis:** Ported and filtered from: skills/linkbuilding/references/tactics/competitor-backlink-gap.md, skills/linkbuilding/references/link-velocity-redflags.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Tactic 04: Competitor Backlink Gap Analysis [Evidence Tier: Tier 3 — Industry observation]
@@ -13,7 +9,7 @@
 - ## What It Is [Evidence Tier: Tier 3 — Industry observation]
 
 
-- Using tools to identify websites that link to your competitors but not to you, then systematically pursuing those same link opportunities. This is "reverse engineering" your competitors' link profiles to find proven, achievable link sources. [Evidence Tier: Tier 3 — Industry observation]
+- Using tools to identify websites that link to your competitors but not to you, then systematically pursuing those same link opportunities. This "reverse engineering" your competitors' link profiles to find proven, achievable link sources. [Evidence Tier: Tier 3 — Industry observation]
 
 
 - ## Why It Works [Evidence Tier: Tier 3 — Industry observation]
@@ -30,65 +26,22 @@
 
 - 1. Use your SEO data source's competitor data tool to find organic search competitors [Evidence Tier: Tier 3 — Industry observation]
 
+## Implementation guide
+Use **authority comparison** by defining the exact object being changed or evaluated, the user/business decision it supports, the evidence required, and the validation step. Record the relevant URL, query, data field, or content artifact instead of relying on a generic SEO checklist. Use stronger sources for high-consequence claims and label observations separately from hypotheses. [Evidence Tier: Tier 3 — Industry observation]
 
-- 3. Include a small set of aspirational competitors and a small set of realistic peers selected for query, audience, market, page type, and authority comparability rather than a fixed third-party score. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Step 2: Run Backlink Gap Analysis [Evidence Tier: Tier 3 — Industry observation]
-
-
-- 1. Use backlink gap data with your domain vs top 3 competitors [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Step 3: Categorize Opportunities (2 hours) [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Cross-references [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Compare authority through relevant first-party evidence, reputation, links, author expertise, brand/entity signals, and topical relevance without reducing authority to one third-party metric. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose A high domain score does not make every page a relevant benchmark. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
+## Specific example
+On `https://example.com/authority-comparison`, a practitioner discovers a concrete **authority comparison** issue. They preserve the current state, test the most plausible remedy, note an alternative explanation, and record what must be verified after implementation. The example is hypothetical and must never be presented as a real client result. [Evidence Tier: Tier 3 — Industry observation]
 
 ## Red flags
+Common failure modes for **authority comparison** include acting on stale evidence, copying a benchmark without proving relevance, turning an internal heuristic into a Google requirement, and inventing first-hand experience. Stop when the necessary evidence cannot be verified. [Evidence Tier: Tier 3 — Industry observation]
 
+## Topic-specific operating notes
+Treat **authority comparison** as the concrete object of analysis within **competitor-analysis**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant competitor selection, comparability, content gaps, authority context, and differentiating evidence signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
+### Concrete operator case
+Imagine a real but hypothetical organization using `competitor-analysis/authority-comparison` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **authority comparison**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **authority comparison**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]

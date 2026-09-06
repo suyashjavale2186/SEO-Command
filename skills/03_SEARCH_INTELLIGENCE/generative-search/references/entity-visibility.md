@@ -1,88 +1,24 @@
 # Entity Visibility
 
+This reference is about **strengthening the clarity and consistency of an entity in content that may be encountered by generative-search systems**. It is an optimization/implementation reference; the measurement of whether the association appears in generated answers belongs to `generative-search-visibility/entity-association`. [Evidence Tier: Tier 3 — Industry observation]
 
-**Source basis:** Ported and filtered from: skills/write-content/references/geo-optimization.md, skills/semantic-gap-analysis/references/eav-triple-worked-examples.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
+## Entity-strengthening method
+Identify the entity precisely: official name, product/service category, people, locations, parent organization, aliases, and attributes that distinguish it from similarly named entities. Use consistent factual descriptions across important first-party pages and legitimate external references. [Evidence Tier: Tier 1 — Officially documented]
 
+Then connect the entity to the topics it genuinely serves. Explain relationships explicitly in useful prose: who the product is for, what it does, where it operates, what evidence supports its claims, and which experts or organizations are associated with it. Avoid stuffing entity names into copy merely for “semantic coverage.” [Evidence Tier: Tier 3 — Industry observation]
 
-## Ported operating assets
+Structured data can represent eligible content and entities, but it is not a standalone ranking or citation guarantee. Use it only when the page qualifies and the markup matches visible content. [Evidence Tier: Tier 1 — Officially documented]
 
+## Concrete scenario
+A SaaS company is commonly referred to by both its brand and a former product name. Important pages clarify the current relationship, use the official brand consistently, identify the product category, and link to authoritative company information. The goal is factual clarity, not a promise of AI citations. [Evidence Tier: Tier 3 — Industry observation]
 
-- # Technique 06: GEO (Generative Engine Optimization) [Evidence Tier: Tier 3 — Industry observation]
+## Failure modes
+Inconsistent names, unsupported third-party descriptions, schema that does not match visible content, invented entity relationships, and claims that entity markup “forces” AI citation. [Evidence Tier: Tier 1 — Officially documented]
 
+## Evidence boundary
+Generative-search behavior is partly observable but not fully specified publicly. Any claim about an internal retrieval or ranking mechanism is **Tier 4 — Hypothesis** unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
 
-- ## What It Is [Evidence Tier: Tier 3 — Industry observation]
+## Implementation checklist
+Create a single canonical description of the entity, verify names and relationships against authoritative first-party sources, and use those facts consistently where they are genuinely relevant. Strengthen the surrounding topical evidence rather than repeating the entity name without semantic purpose. [Evidence Tier: Tier 1 — Officially documented]
 
-
-- Generative-search optimization should focus on answer clarity, unique evidence, entity clarity, crawlability, and trustworthy sourcing rather than secret tricks. Academic and industry studies can inform hypotheses, but do not establish a proprietary ranking formula. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-- ## Why It Works [Evidence Tier: Tier 3 — Industry observation]
-
-
-- AI systems cite content that is: easy to extract, verifiable, authoritative, and structured for natural language queries. Content optimized for AI citation also tends to rank well in traditional search because the same qualities (clarity, specificity, authority) that AI systems value are what Google's quality signals reward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Key Statistics [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Third-party studies indicate that AI Overview citations are not perfectly limited to the highest-ranking traditional pages, so evaluate generative visibility separately from classic rankings. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- - Authors with presence across multiple platforms (Wikipedia, Reddit, LinkedIn) get cited more often than isolated profiles. [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Step-by-Step Process [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## [Question as H2] [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Tips [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Make important people, products, organizations, and concepts unambiguous through consistent names, relationships, evidence, and page context. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Entity clarity can help readers and systems interpret a site, but this plugin must not invent or claim a proprietary Google entity score. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+The implementation target is **clear association**, not forced citation. A page can explain that a product serves a particular market, show who built it, document its capabilities, and cite supporting material without claiming that those choices guarantee inclusion in a generated answer. [Evidence Tier: Tier 3 — Industry observation]

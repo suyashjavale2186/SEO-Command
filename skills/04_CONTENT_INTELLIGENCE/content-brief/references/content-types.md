@@ -1,88 +1,50 @@
 # Content Types
 
 
-**Source basis:** Ported and filtered from: skills/content-brief/references/content-types-overview.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Content Types Overview [Evidence Tier: Tier 3 — Industry observation]
 
 
-- Quick-reference index covering all 23 content-type templates. Use this file to pick the right content type for a SERP, check its target word count, dominant schema, snippet format, and H1/H2 skeleton without loading the full per-type file. Load the individual `content-types/<type>.md` only when you need the depth (process detail, anti-AI focus, common mistakes, example topics). [Evidence Tier: Tier 3 — Industry observation]
 
 
 - ## Decision table [Evidence Tier: Tier 3 — Industry observation]
 
 
-- | Content type | Dominant intent | Word count | Primary schema | Snippet format | H1 pattern | Key H2s (first 3-4) | [Evidence Tier: Tier 3 — Industry observation]
 
 
-- | how-to | Informational | Enough detail to complete the task without unnecessary padding | Use only eligible structured data | Ordered steps when the task is procedural | Action-led title | Answer / prerequisites / steps / mistakes / verification | [Evidence Tier: Tier 3 — Industry observation]
 
 
-- | definition | Informational | Concise definition plus the context needed to use the concept | Use only eligible structured data | Direct definition | Definition-led title | Definition / how it works / types / examples | [Evidence Tier: Tier 3 — Industry observation]
 
+## Format-selection decision tree
 
-- | pillar-page | Informational + navigational | Let task complexity determine depth; no fixed word target | Use only eligible structured data | Direct answer plus navigational sections | Clear topic-led title | Overview / core subtopics / practical paths | [Evidence Tier: Tier 3 — Industry observation]
+Choose a content format from the **search task + current SERP + business objective**, not from a universal “best” article template. First identify whether the user is trying to learn, compare, decide, complete a task, evaluate a product, or get a direct answer. Then inspect the dominant result structures for that query and determine which format naturally supports the task. [Evidence Tier: Tier 3 — Industry observation]
 
+Use these distinctions as working heuristics: a **comparison** fits a decision where alternatives and trade-offs matter; a **how-to** fits a sequential task; a **FAQ** can organize discrete questions when the page genuinely answers them; a **buying guide** fits a selection task where criteria and trade-offs need explanation; a **case study** fits evidence of a real outcome; a **reference/glossary** fits definitional lookup. None is a ranking guarantee. [Evidence Tier: Tier 3 — Industry observation]
 
-- | faq-page | Informational | Include only questions that genuinely belong to the page | Use only eligible structured data | Direct answer per question | Topic-led title | Grouped questions / concise answers / escalation paths | [Evidence Tier: Tier 3 — Industry observation]
+### Worked scenario
 
+For the query **best CRM for a 12-person consulting firm**, the SERP may contain list comparisons, vendor pages, and pricing explainers. A brief should therefore favor a decision-oriented comparison structure with evaluation criteria, trade-offs, and a clear explanation of which business types fit each option. For **how to migrate a CRM**, a procedural structure with prerequisites, sequence, verification, rollback considerations, and troubleshooting is more appropriate. The keyword alone does not determine the format; the user task does. [Evidence Tier: Tier 3 — Industry observation]
 
-- ## Intent → content type mapping [Evidence Tier: Tier 3 — Industry observation]
+### Briefing checklist
 
+- Record the exact target task in one sentence. [Evidence Tier: Tier 3 — Industry observation]
+- Identify the dominant SERP formats and note meaningful exceptions. [Evidence Tier: Tier 3 — Industry observation]
+- Map the format to the business conversion goal without distorting the user task. [Evidence Tier: Tier 3 — Industry observation]
+- Specify what first-party evidence or expert input is needed before drafting. [Evidence Tier: Tier 1 — Officially documented]
+- Define a format-specific success condition such as a complete decision matrix, reproducible procedure, or verified answer set. [Evidence Tier: Tier 3 — Industry observation]
 
-- - "how to [x]" / "[x] tutorial" → how-to [Evidence Tier: Tier 3 — Industry observation]
+### Red flags
 
+Choosing “long-form article” because it feels comprehensive; copying a competitor's headings without understanding intent; using an FAQ structure to pad a page with unrelated questions; forcing a buying guide onto a query whose SERP is dominated by direct answers; and choosing a format before looking at the live SERP are all reasons to revisit the brief. [Evidence Tier: Tier 3 — Industry observation]
 
-- - "[topic] questions" / PAA cluster → faq-page [Evidence Tier: Tier 3 — Industry observation]
+The final brief must state why the selected format fits the user task and provide the required recommendation block wherever a format choice is recommended. [Evidence Tier: Tier 3 — Industry observation]
 
+## Triage method
+Translate the search task into an explicit content job, then select the format, evidence requirements, and business role. Use the SERP to understand expectations, but reserve space for first-party material that competitors are unlikely to reproduce. The brief should tell the writer what must be true and what evidence is still missing. [Evidence Tier: Tier 3 — Industry observation]
 
-## Elite adaptation
+## Scenario walk-through
+A comparison brief for “best payroll software for a 50-person company” contains buyer criteria, current product facts, a decision matrix, and an internal operator interview. It does not ask the writer to reproduce every competitor heading. [Evidence Tier: Tier 3 — Industry observation]
 
-
-The retained pattern should be applied to the real user and business context: Select the page type that best matches the task and business objective, then use a content-type-specific structure. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose Comparison pages need decision criteria and side-by-side evidence; how-to pages need ordered execution; buying guides need tradeoffs and selection criteria. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+## Escalation triggers
+Briefing from keywords alone; specifying an article length instead of a user task; making “cover everything” the only content requirement; or approving a topic before its evidence and conversion role are clear. [Evidence Tier: Tier 3 — Industry observation]

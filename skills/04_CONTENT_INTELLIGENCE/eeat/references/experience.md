@@ -1,10 +1,6 @@
 # Experience Evidence
 
 
-**Source basis:** Ported and filtered from: skills/eeat-audit/references/experience-detection-playbook.md, skills/expert-interview/references/eeat-signal-embedding.md. The legacy structure is retained where it is operationally useful; unsupported Google-mechanism claims and arbitrary SEO targets are not carried forward. [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Ported operating assets
 
 
 - # Experience Detection Playbook [Evidence Tier: Tier 3 — Industry observation]
@@ -27,71 +23,22 @@
 
 - ## Strong signals: what hands-on experience looks like in writing [Evidence Tier: Tier 3 — Industry observation]
 
+## Analyst worksheet
+Assess Experience, Expertise, Authority, and Trust as distinct evidence questions. Experience concerns genuine first-hand involvement; Expertise concerns subject competence; Authority concerns credible standing; Trust concerns transparent sourcing, identity, incentives, and limitations. Never fill a missing pillar with a fabricated biography or invented case. [Evidence Tier: Tier 1 — Officially documented]
 
-- ### First-person moment-by-moment narration [Evidence Tier: Tier 3 — Industry observation]
+## Realistic scenario
+A financial guide uses an accountant as the named reviewer but never explains the reviewer’s role or sources the tax claims. The improvement is to disclose authorship and review scope, source regulated claims, and clearly separate practitioner commentary from general information. [Evidence Tier: Tier 1 — Officially documented]
 
+## Reasons to reject the inference
+Generic “expert” bios; unverifiable credentials; anonymous testimonials; invented first-person testing; or treating backlink metrics as proof that an author has subject expertise. [Evidence Tier: Tier 1 — Officially documented]
 
-- ### Specific numbers that would be invented if guessed [Evidence Tier: Tier 3 — Industry observation]
+## Topic-specific operating notes
+Treat **experience** as the concrete object of analysis within **eeat**. Work from the artifact that the file names—rather than from a generic SEO checklist—and preserve the field-level evidence that another practitioner would need to reproduce the judgment. For this topic, inspect the relevant experience, expertise, authority, trust, verification, authorship, and transparent limitations signals first, then test the business or user consequence of the observed issue. [Evidence Tier: Tier 3 — Industry observation]
 
+When the evidence is incomplete, name the missing field or source explicitly and state what observation would change the conclusion. Do not substitute a vendor benchmark, an internal score, or a plausible Google explanation for missing evidence. [Evidence Tier: Tier 1 — Officially documented]
 
-- ### Failure stories with mechanism [Evidence Tier: Tier 3 — Industry observation]
+### Concrete operator case
+Imagine a real but hypothetical organization using `eeat/experience` as part of an SEO review. The operator records the current state, isolates the specific variable relevant to **experience**, compares it with the intended user/business outcome, and chooses an action that can later be validated. The example is illustrative only; it must never be presented as a real client result or invented first-hand experience. [Evidence Tier: Tier 3 — Industry observation]
 
-
-- ### Unexpected observations [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Original photos, screenshots, and diagrams tied to specific moments [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ### Explicit preferences with reasoning [Evidence Tier: Tier 3 — Industry observation]
-
-
-- ## Cross-reference [Evidence Tier: Tier 3 — Industry observation]
-
-
-## Elite adaptation
-
-
-The retained pattern should be applied to the real user and business context: Look for direct participation, first-hand testing, real projects, operational records, photographs, screenshots, logs, or named experiences that can be substantiated. The reference is a decision aid, not a ranking formula. Start with the observed situation, classify the underlying task or risk, select an intervention that directly addresses it, and define how the result will be validated. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-Keep observations, interpretations, and hypotheses separate. A current SERP, Search Console row, live HTML response, expert interview, or original dataset is evidence; an explanation of why a proprietary system behaved that way is an interpretation unless officially documented. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Execution checklist
-
-
-1. Confirm scope, affected asset(s), target audience, intended outcome, and available evidence. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-2. Document the baseline and source provenance before making a change. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-3. Apply the legacy tactic only where the diagnosed problem calls for it; avoid copying competitors for its own sake. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-4. Record assumptions and uncertainty, especially where the source material relied on industry inference. [Evidence Tier: Tier 4 — Hypothesis]
-
-
-5. Validate the implementation and compare the outcome against the same baseline, including business impact when available. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Worked example
-
-
-Suppose When no first-hand evidence exists, write from sourced information rather than inventing a story. Begin by proving the symptom exists and identifying the page/query/business role involved. If the evidence points to a content problem, add useful information or fix the intent mismatch; if it points to technical access or indexation, fix the underlying technical state first. Do not use a content rewrite to treat a problem whose evidence points elsewhere. [Evidence Tier: Tier 2 — Strong empirical evidence]
-
-
-## Red flags
-
-
-- A source claims that an action guarantees rankings, traffic, links, snippets, or AI citations. Treat that as unsupported unless the evidence actually establishes it. [Evidence Tier: Tier 4 — Hypothesis]
-- A tactic uses arbitrary density, title/meta length, snippet-length, or internal-link-ratio targets as requirements. Replace them with qualitative objectives. [Evidence Tier: Tier 1 — Officially documented]
-- A recommendation cites a proprietary Google mechanism as fact. Downgrade it to Tier 4 — Hypothesis or omit the mechanism entirely. [Evidence Tier: Tier 4 — Hypothesis]
-- The proposed content includes invented experience, credentials, customer results, or proprietary measurements. Stop and request verifiable evidence. [Evidence Tier: Tier 1 — Officially documented]
-
-
-## Evidence reminder
-
-
-Legacy tactical claims are generally **Tier 3 — Industry observation**. Current technical or policy claims should be checked against official Google documentation, and ambiguous claims should default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+### Topic-specific failure modes
+Watch for the characteristic mistake of **experience**: applying the concept to the wrong artifact, treating a proxy metric as the outcome, copying a competitor pattern without proving comparability, or turning a hypothesis into an assertion. Also stop when the proposed action would require fabricated evidence, violate search-policy guidance, or imply a guaranteed ranking or revenue result. [Evidence Tier: Tier 1 — Officially documented]
