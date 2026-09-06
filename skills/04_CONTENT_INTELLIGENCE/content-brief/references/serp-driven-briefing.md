@@ -1,24 +1,64 @@
-# SERP-driven briefing
+# Serp Driven Briefing
 
-## Purpose
-Use current search results as direct evidence about prevailing intent, page purpose, result format, and user expectations. The SERP is an observation surface; it does not by itself prove why Google ranked a particular result. **[Tier 2–3]**
 
-## Workflow
-1. Search the target query in the relevant location, language, and device context when known.
-2. Inspect representative leading organic results and important search features.
-3. Record recurring page purposes, information formats, distinctive evidence, and visible gaps.
-4. Infer intent from the query and SERP together; preserve ambiguity where results are mixed. **[Tier 2–3]**
-5. Use the findings to select content structure and evidence requirements.
-6. Do not copy competing wording or structure without a separate information-advantage rationale.
+**Purpose.** This reference gives the `content brief` skill a concrete operating method for **serp driven briefing**. Use it as an internal diagnostic and decision framework; it does not represent a hidden Google ranking formula. [Evidence Tier: Tier 4 — Hypothesis]
 
-## Important correction
-Do not use keyword density, arbitrary page-length targets, fixed snippet lengths, or fixed title/meta character limits as ranking rules. Use clarity, relevance, completeness for the user's task, and efficient communication instead. **[Tier 1 for Google's general people-first/search guidance; internal editorial rule for the specific implementation.]**
 
-## Google mechanisms
-Claims about NavBoost, BERT, MUM, DeepRank, pogo-sticking penalties, leaked ranking fields, or hidden site-level authority scores are not to be presented as established behavior unless a current official Google source directly documents the specific claim. Otherwise classify them as **Tier 4 — Hypothesis** and do not use them as hard rules.
+## Core principles
 
-## AI / generative search
-Google's documented guidance says foundational SEO remains the basis for AI features such as AI Overviews and AI Mode. Do not imply secret additional technical requirements. **[Tier 1]** https://developers.google.com/search/docs/appearance/ai-features
 
-## Structured data
-Treat structured data as a representation layer and implement only when supported, accurate, and reflective of visible content. Do not promise ranking or generative-search citation gains from schema alone. **[Tier 1]** https://developers.google.com/search/docs/appearance/structured-data/sd-policies
+- Use the reference to help the content brief skill make defensible decisions about serp driven briefing. [Evidence Tier: Tier 3 — Industry observation]
+
+
+- Record evidence before scoring or recommending changes. The strongest evidence is primary documentation, direct first-party data, reproducible measurement, or clearly attributed expert evidence; weaker evidence should remain labeled as such. [Evidence Tier: Tier 1 — Officially documented]
+
+
+- Keep observed facts, interpretations, forecasts, and hypotheses in separate fields. This prevents a plausible explanation from becoming an unsupported fact merely through repetition. [Evidence Tier: Tier 4 — Hypothesis]
+
+
+- Never invent first-person experience, customer results, credentials, testimonials, measurements, or screenshots. When first-hand evidence is unavailable, write from sourced information and say what is missing. [Evidence Tier: Tier 1 — Officially documented]
+
+
+## Execution checklist
+
+
+1. Define the object being analyzed, the target audience, the page/query/business role, and the decision that the output must support. [Evidence Tier: Tier 4 — Hypothesis]
+
+
+2. Collect the available source evidence and note its date, scope, and limitations. Prefer direct evidence over generalized assumptions. [Evidence Tier: Tier 2 — Strong empirical evidence]
+
+
+3. Classify the problem before selecting a tactic. Do not jump from an observed symptom such as a traffic decline to a preferred solution such as a rewrite. [Evidence Tier: Tier 4 — Hypothesis]
+
+
+4. Choose the least disruptive intervention that directly addresses the diagnosed problem, and specify how success or failure will be measured. [Evidence Tier: Tier 4 — Hypothesis]
+
+
+5. Validate implementation, observe the relevant metrics, and update the decision record so future work can build on what was learned. [Evidence Tier: Tier 2 — Strong empirical evidence]
+
+
+## Worked example
+
+
+When evaluating serp driven briefing, establish the intended outcome, gather direct evidence, compare plausible explanations, and choose a measurable intervention. Begin by documenting the baseline and the uncertainty around it. If the evidence is thin, the correct output may be a monitoring recommendation or a request for better data rather than a confident optimization plan. [Evidence Tier: Tier 2 — Strong empirical evidence]
+
+
+## Decision points and red flags
+
+
+- **Act now:** the problem is material, the evidence is strong enough, and the proposed change is reversible or well validated. [Evidence Tier: Tier 4 — Hypothesis]
+- **Investigate:** the symptom is real but multiple causes remain plausible. Gather additional evidence before selecting an intervention. [Evidence Tier: Tier 2 — Strong empirical evidence]
+- **Defer:** the issue has low business impact, weak evidence, or high implementation cost relative to alternatives. [Evidence Tier: Tier 4 — Hypothesis]
+- **Reject:** the tactic depends on manipulation, fabricated evidence, arbitrary hard rules, or claims of guaranteed outcomes. [Evidence Tier: Tier 1 — Officially documented]
+
+
+## Evidence-tier guidance
+
+
+Use **Tier 3 — Industry observation** for the core topic where applicable, and downgrade to **Tier 3 — Industry observation** or **Tier 4 — Hypothesis** whenever the claim depends on third-party observations or an inferred mechanism. Where evidence is mixed, default to the weaker tier. [Evidence Tier: Tier 4 — Hypothesis]
+
+
+## Practical handoff
+
+
+Pass the resulting evidence map to the parent skill with: observed problem, supporting sources, affected URLs or assets, proposed action, alternatives considered, expected impact, principal uncertainty, validation method, and business dependency. This keeps the reference operational rather than descriptive. [Evidence Tier: Tier 4 — Hypothesis]

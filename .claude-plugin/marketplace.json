@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Evidence-driven SEO operating system rebuilt from SuperSEO, with governance, business intelligence, technical/site intelligence, search/AI-search analysis, evidence-first content, authority, execution, measurement, experimentation, and strategy.",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "repository": "https://github.com/bizwitai/superseo-skills"
   },
   "plugins": [
@@ -15,7 +15,7 @@
       "source": "./",
       "strict": false,
       "description": "SuperSEO Elite: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "category": "seo",
       "tags": [
         "seo",
