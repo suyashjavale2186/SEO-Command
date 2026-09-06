@@ -1,6 +1,6 @@
 {
-  "name": "SEO Command",
-  "description": "SEO Command: evidence-driven SEO research, strategy, drafting, measurement, experimentation, and governance co-pilot for human SEO practitioners.",
+  "name": "SEO-Command",
+  "description": "SEO-Command: evidence-driven SEO research, strategy, drafting, measurement, experimentation, and governance co-pilot for human SEO practitioners.",
   "version": "3.0.0",
   "skills": [
     "./skills/01_BUSINESS_INTELLIGENCE/business-context",

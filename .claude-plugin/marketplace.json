@@ -1,5 +1,5 @@
 {
-  "name": "SEO Command",
+  "name": "SEO-Command",
   "owner": {
     "name": "Suyash Javale"  
   },
@@ -10,10 +10,10 @@
   },
   "plugins": [
     {
-      "name": "SEO Command",
+      "name": "SEO-Command",
       "source": "./",
       "strict": false,
-      "description": "SEO Command: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
+      "description": "SEO-Command: evidence-driven SEO operating system spanning business intelligence, site intelligence, search intelligence, content, authority, execution, measurement, experimentation, strategy, and governance.",
       "version": "4.0.0",
       "category": "SEO",
       "tags": [
